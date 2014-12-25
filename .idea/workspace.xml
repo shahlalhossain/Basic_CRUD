@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bb1f53e-4f6e-4eda-b406-9af54c133c1f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/add.php" afterPath="$PROJECT_DIR$/personalinfo/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/list.php" afterPath="$PROJECT_DIR$/personalinfo/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/view.php" afterPath="$PROJECT_DIR$/personalinfo/view.php" />
     </list>
     <ignored path="crud01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personalinfo/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5042017" vertical-offset="0" max-vertical-offset="1380">
+            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1380">
               <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -63,12 +62,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/personalinfo/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              <folding />
+            <state vertical-scroll-proportion="0.063025214" vertical-offset="0" max-vertical-offset="1440">
+              <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1419530880703" expanded="true" signature="104:144" placeholder="SELECT * FRO..personalinfo..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,6 +133,7 @@
         <option value="$PROJECT_DIR$/personalinfo/create.php" />
         <option value="$PROJECT_DIR$/personalinfo/add.php" />
         <option value="$PROJECT_DIR$/personalinfo/list.php" />
+        <option value="$PROJECT_DIR$/personalinfo/view.php" />
       </list>
     </option>
   </component>
@@ -356,7 +359,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1419530880703" expanded="true" signature="104:144" placeholder="SELECT * FRO..personalinfo..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -500,14 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personalinfo/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/personalinfo/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.583334" vertical-offset="94" max-vertical-offset="3525">
@@ -528,11 +526,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/personalinfo/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5042017" vertical-offset="0" max-vertical-offset="1380">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1380">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1419530601885" expanded="true" signature="81:107" placeholder="SELECT * FRO..personalinfo..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personalinfo/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.063025214" vertical-offset="0" max-vertical-offset="1440">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1419530880703" expanded="true" signature="104:144" placeholder="SELECT * FRO..personalinfo..." />
           </folding>
         </state>
       </provider>
