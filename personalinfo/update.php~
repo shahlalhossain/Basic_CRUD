@@ -40,10 +40,12 @@ if (mysqli_connect_errno())
 }
 
 
-$query = "INSERT INTO `crud01`.`personalinfo`(`code`, `track`, `fullname`, `fathername`, `mothername`, `religion`, `dob`, `gender`, `nationality`, `nationalid`, `useremail`, `mobile`, `hometown`, `currentcity`, `sscroll`, `sscboard`, `sscyear`, `sscgroup`, `sscresult`, `hscroll`, `hscboard`, `hscyear`, `hscgroup`, `hscresult`, `honssubject`, `honsresult`, `bangla`, `english`)
-VALUES ('$code', '$track', '$fullname', '$fathername', '$mothername', '$religion', '$dob', '$gender', '$nationality', '$nationalid', '$useremail', '$mobile', '$hometown', '$currentcity', '$sscroll', '$sscboard', '$sscyear', '$sscgroup', '$sscresult', '$hscroll', '$hscboard', '$hscyear', '$hscgroup', '$hscresult', '$honssubject', '$honsresult', '$bangla', '$english')";
+$query = "UPDATE `crud01`.`personalinfo` SET `code` = '".$code."', `track` = '".$track."', `fullname` = '".$fullname."', `fathername` = '".$fathername."', `mothername` = '".$mothername."', `religion` = '".$religion."', `dob` = '".$dob."', `gender` = '".$gender."', `nationality` = '".$nationality."', `nationalid` = '".$nationalid."', `useremail` = '".$useremail."', `mobile` = '".$mobile."', `hometown` = '".$hometown."', `currentcity` = '".$currentcity."', `sscroll` = '".$sscroll."', `sscboard` = '".$sscboard."', `sscyear` = '".$sscyear."', `sscgroup` = '".$sscgroup."', `sscresult` = '".$sscresult."', `hscroll` = '".$hscroll."', `hscboard` = '".$hscboard."', `hscyear` = '".$hscyear."', `hscgroup` = '".$hscgroup"', `hscresult` = '".$hscresult."', `honssubject` = '".$honssubject."', `honsresult` = '".$honsresult."', `bangla` = '".$bangla."', `english` = '".$english."' WHERE `personalinfo`.`id` = $id; ";
 mysqli_query($link, $query);
 
+
+//$query = "UPDATE `students`.`users` SET `first_name` = '".$firstName."',
+//`last_name` = '".$lastName ."' WHERE `users`.`id` = $id;";
 
 header('location:list.php');
 ?>
