@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: shahlal
- * Date: 25/12/14
- * Time: 22:43
- */ 
+$code = $_GET['code'];
+$link = mysqli_connect("localhost", "root", "479874", "crud01");
+$query = "DELETE FROM `crud01`.`personalinfo` WHERE `personalinfo`.`code` = $code";
+mysqli_query($link, $query);
+header('location:list.php');
+?>
