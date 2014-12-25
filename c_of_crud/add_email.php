@@ -15,4 +15,4 @@ $query = "INSERT INTO `ftfl2nd`.`emails`(`email`) VALUES ('$email')";
 
 mysqli_query($link, $query);
 
-header('location:all.php');
+header('location:all_email.php');

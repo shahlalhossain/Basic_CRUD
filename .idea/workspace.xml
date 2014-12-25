@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bb1f53e-4f6e-4eda-b406-9af54c133c1f" name="Default" comment="" />
+    <list default="true" id="5bb1f53e-4f6e-4eda-b406-9af54c133c1f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c_of_crud/add.email.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c_of_crud/all.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c_of_crud/create.email.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c_of_crud/delete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c_of_crud/view.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="crud01.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,66 +32,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create.email.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/c_of_crud/create.email.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29516995" vertical-offset="0" max-vertical-offset="559">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.email.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c_of_crud/add.email.php">
+      <file leaf-file-name="add_email.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c_of_crud/add_email.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="360">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
-                <marker date="1419497853620" expanded="true" signature="226:283" placeholder="INSERT INTO ..." />
-                <marker date="1419497853620" expanded="true" signature="227:283" placeholder="INSERT INTO ..." />
+                <marker date="1419500597896" expanded="true" signature="227:284" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c_of_crud/all.php">
+      <file leaf-file-name="all_email.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c_of_crud/all_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="870">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state vertical-scroll-proportion="-18.75" vertical-offset="135" max-vertical-offset="840">
+              <caret line="39" column="130" selection-start-line="39" selection-start-column="130" selection-end-line="39" selection-end-column="130" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1419498892136" expanded="true" signature="84:104" placeholder="SELECT * FRO..emails..." />
+                <marker date="1419500597896" expanded="true" signature="84:104" placeholder="SELECT * FRO..emails..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c_of_crud/delete.php">
+      <file leaf-file-name="create_email.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/c_of_crud/create_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="285">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.40250447" vertical-offset="0" max-vertical-offset="559">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_email.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c_of_crud/delete_email.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="285">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
-                <marker date="1419498541288" expanded="true" signature="104:157" placeholder="DELETE FROM ..." />
-                <marker date="1419498541288" expanded="true" signature="104:158" placeholder="DELETE FROM ..." />
+                <marker date="1419500597892" expanded="true" signature="104:157" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c_of_crud/view.php">
+      <file leaf-file-name="view_email.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c_of_crud/view_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="945">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state vertical-scroll-proportion="-14.541667" vertical-offset="371" max-vertical-offset="930">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1419498809748" expanded="true" signature="104:136" placeholder="SELECT * FRO..emails..." />
-                <marker date="1419498809748" expanded="true" signature="104:137" placeholder="SELECT * FRO..emails..." />
+                <marker date="1419500597900" expanded="true" signature="104:136" placeholder="SELECT * FRO..emails..." />
               </folding>
             </state>
           </provider>
@@ -107,8 +107,13 @@
         <option value="$PROJECT_DIR$/c_of_crud/add.email.php" />
         <option value="$PROJECT_DIR$/c_of_crud/delete.php" />
         <option value="$PROJECT_DIR$/c_of_crud/view.php" />
-        <option value="$PROJECT_DIR$/c_of_crud/all.php" />
         <option value="$PROJECT_DIR$/c_of_crud/create.email.php" />
+        <option value="$PROJECT_DIR$/c_of_crud/all.php" />
+        <option value="$PROJECT_DIR$/c_of_crud/add_email.php" />
+        <option value="$PROJECT_DIR$/c_of_crud/all_email.php" />
+        <option value="$PROJECT_DIR$/c_of_crud/delete_email.php" />
+        <option value="$PROJECT_DIR$/c_of_crud/view_email.php" />
+        <option value="$PROJECT_DIR$/c_of_crud/create_email.php" />
       </list>
     </option>
   </component>
@@ -307,58 +312,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c_of_crud/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="285">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <marker date="1419498541288" expanded="true" signature="104:157" placeholder="DELETE FROM ..." />
-            <marker date="1419498541288" expanded="true" signature="104:158" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c_of_crud/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="945">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419498809748" expanded="true" signature="104:136" placeholder="SELECT * FRO..emails..." />
-            <marker date="1419498809748" expanded="true" signature="104:137" placeholder="SELECT * FRO..emails..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c_of_crud/add.email.php">
+    <entry file="file://$PROJECT_DIR$/c_of_crud/add_email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="360">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
-            <marker date="1419497853620" expanded="true" signature="226:283" placeholder="INSERT INTO ..." />
-            <marker date="1419497853620" expanded="true" signature="227:283" placeholder="INSERT INTO ..." />
+            <marker date="1419500597896" expanded="true" signature="227:284" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c_of_crud/all.php">
+    <entry file="file://$PROJECT_DIR$/c_of_crud/all_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="870">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state vertical-scroll-proportion="-18.75" vertical-offset="135" max-vertical-offset="840">
+          <caret line="39" column="130" selection-start-line="39" selection-start-column="130" selection-end-line="39" selection-end-column="130" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419498892136" expanded="true" signature="84:104" placeholder="SELECT * FRO..emails..." />
+            <marker date="1419500597896" expanded="true" signature="84:104" placeholder="SELECT * FRO..emails..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c_of_crud/create.email.php">
+    <entry file="file://$PROJECT_DIR$/c_of_crud/delete_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29516995" vertical-offset="0" max-vertical-offset="559">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="285">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1419500597892" expanded="true" signature="104:157" placeholder="DELETE FROM ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c_of_crud/view_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.541667" vertical-offset="371" max-vertical-offset="930">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <marker date="1419500597900" expanded="true" signature="104:136" placeholder="SELECT * FRO..emails..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c_of_crud/create_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40250447" vertical-offset="0" max-vertical-offset="559">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

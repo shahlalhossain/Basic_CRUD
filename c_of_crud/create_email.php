@@ -6,11 +6,11 @@
 </head>
 <body style="text-align: center; width: 100%; height: 100%;">
 
-<form action="add.email.php" method="POST">
+<form action="add_email.php" method="POST">
 
-    <label>User Email: </label>
+    <label>Email: </label>
     <input type="text" name="email" />
     <br>
 
-    <button type="submit">Submit</button>
+    <button type="submit">Save</button>
  </form>

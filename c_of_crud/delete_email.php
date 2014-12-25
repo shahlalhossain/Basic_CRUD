@@ -8,6 +8,6 @@ $query = "DELETE FROM `ftfl2nd`.`emails` WHERE `emails`.`id` = $id";
 
 mysqli_query($link, $query);
 
-header('location:all.php');
+header('location:all_email.php');
 
 ?>

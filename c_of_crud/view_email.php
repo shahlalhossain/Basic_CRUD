@@ -22,8 +22,8 @@ $row = mysqli_fetch_assoc($result);
 
 
 <ul>
-    <li><a href="add.email.php">Create New Email Record</a> </li>
-    <li><a href="all.php">View Full Emails List</a> </li>
+    <li><a href="add_email.php">Create New Email Record</a> </li>
+    <li><a href="all_email.php">View Full Emails List</a> </li>
 </ul>
 
 
@@ -43,7 +43,7 @@ $row = mysqli_fetch_assoc($result);
             <td><?php echo $row['email']?></td>
             <td><?php echo $row['created']?></td>
 
-            <td> <a href="#">Edit</a> | <a href="delete.php?id=<?php echo $row['id']?>">Delete</a></td>
+            <td> <a href="#">Edit</a> | <a href="delete_email.php?id=<?php echo $row['id']?>">Delete</a></td>
         </tr>
 
     <?php

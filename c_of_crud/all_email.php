@@ -17,8 +17,7 @@ $result = mysqli_query($link, $query);
 <body style="text-align: center;">
 
 <ul>
-    <li><a href="create.email.php">Create New Email Record</a> </li>
-    <li><a href="all.php">View Full Email List</a> </li>
+    <li><a href="create_email.php">Create New Email Record</a> </li>
 </ul>
 
 
@@ -38,7 +37,7 @@ $result = mysqli_query($link, $query);
             <td><?php echo $row['email']?></td>
             <td><?php echo $row['created']?></td>
 
-            <td> <a href="#">Edit</a> | <a href="delete.php?id=<?php echo $row['id']?>">Delete</a> | <a href="view.php?id=<?php echo $row['id']?>">View</a></td>
+            <td> <a href="#">Edit</a> | <a href="delete_email.php?id=<?php echo $row['id']?>">Delete</a> | <a href="view_email.php?id=<?php echo $row['id']?>">View</a></td>
         </tr>
 
     <?php
