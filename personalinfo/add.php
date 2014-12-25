@@ -41,5 +41,5 @@ VALUES ('$code', '$track', '$fullname', '$fathername', '$mothername', '$religion
 mysqli_query($link, $query);
 
 
-//header('location:list.php');
+header('location:list.php');
 ?>
