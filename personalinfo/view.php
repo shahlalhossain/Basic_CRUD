@@ -1,7 +1,7 @@
 <?php
-$code = $_GET['code'];
+$id = $_GET['id'];
 $link = mysqli_connect("localhost", "root", "479874", "crud01");
-$query = "SELECT * FROM personalinfo WHERE code = $code";
+$query = "SELECT * FROM personalinfo WHERE id = $id";
 $result = mysqli_query($link, $query);
 $row = mysqli_fetch_assoc($result);
 //print_r($row);
@@ -18,6 +18,7 @@ $row = mysqli_fetch_assoc($result);
 </ul>
 <table border="1">
     <tr>
+        <td>ID</td>
         <td>Code</td>
         <td>Track</td>
         <td>Name</td>
@@ -52,6 +53,7 @@ $row = mysqli_fetch_assoc($result);
     foreach($result as $row){
         ?>
         <tr>
+            <td><?php echo $row['id']?></td>
             <td><?php echo $row['code']?></td>
             <td><?php echo $row['track']?></td>
             <td><?php echo $row['fullname']?></td>
@@ -80,8 +82,8 @@ $row = mysqli_fetch_assoc($result);
             <td><?php echo $row['honsresult']?></td>
             <td><?php echo $row['bangla']?></td>
             <td><?php echo $row['english']?></td>
-            <td> <a href="#">Edit</a> |
-                 <a href="delete.php?code=<?php echo $row['code']?>">Delete</a></td>
+            <td> <a href="edit.php?id=<?php echo $row['id']?>">Edit</a> |
+                 <a href="delete.php?id=<?php echo $row['id']?>">Delete</a></td>
         </tr>
     <?php
     }

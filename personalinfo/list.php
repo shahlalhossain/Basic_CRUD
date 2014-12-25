@@ -13,6 +13,7 @@ $result = mysqli_query($link, $query);
 </ul>
 <table border="1" width="100%">
     <tr>
+        <td>ID</td>
         <td>Code</td>
         <td>Track</td>
         <td>Name</td>
@@ -47,6 +48,7 @@ $result = mysqli_query($link, $query);
     foreach($result as $row){
         ?>
         <tr>
+            <td><?php echo $row['id']?></td>
             <td><?php echo $row['code']?></td>
             <td><?php echo $row['track']?></td>
             <td><?php echo $row['fullname']?></td>
@@ -75,9 +77,9 @@ $result = mysqli_query($link, $query);
             <td><?php echo $row['honsresult']?></td>
             <td><?php echo $row['bangla']?></td>
             <td><?php echo $row['english']?></td>
-            <td> <a href="#">Edit</a> |
-                 <a href="delete.php?code=<?php echo $row['code']?>">Delete</a> |
-                 <a href="view.php?code=<?php echo $row['code']?>">View</a></td>
+            <td> <a href="edit.php?id=<?php echo $row['id']?>">Edit</a> |
+                 <a href="delete.php?id=<?php echo $row['id']?>">Delete</a> |
+                 <a href="view.php?id=<?php echo $row['id']?>">View</a></td>
         </tr>
     <?php
     }
