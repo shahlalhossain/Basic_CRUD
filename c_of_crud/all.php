@@ -19,7 +19,6 @@ $result = mysqli_query($link, $query);
 <ul>
     <li><a href="create.email.php">Create New Email Record</a> </li>
     <li><a href="all.php">View Full Email List</a> </li>
-    <li><a href="search.php">Search By ID</a> </li>
 </ul>
 
 

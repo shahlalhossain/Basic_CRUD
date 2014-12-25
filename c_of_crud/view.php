@@ -24,7 +24,6 @@ $row = mysqli_fetch_assoc($result);
 <ul>
     <li><a href="add.email.php">Create New Email Record</a> </li>
     <li><a href="all.php">View Full Emails List</a> </li>
-    <li><a href="search.php">Search By ID</a> </li>
 </ul>
 
 
