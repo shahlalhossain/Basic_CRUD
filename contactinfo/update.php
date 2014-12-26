@@ -1,74 +1,30 @@
 <?php
 //print_r($_POST);
 
-$id = $_POST['id'];
-$code = $_POST['code'];
-$track = $_POST['track'];
-$fullname = $_POST['fullname'];
-$fathername = $_POST['fathername'];
-$mothername = $_POST['mothername'];
-$religion = $_POST['religion'];
-$dob = $_POST['dob'];
-$gender = $_POST['gender'];
-$nationality = $_POST['nationality'];
-$nationalid = $_POST['nationalid'];
-$useremail = $_POST['useremail'];
+$id = $_GET['id'];
+$present_address = $_POST['present_address'];
+$permanent_address = $_POST['permanent_address'];
+$district = $_POST['district'];
+$home_phone = $_POST['home_phone'];
 $mobile = $_POST['mobile'];
-$hometown = $_POST['hometown'];
-$currentcity = $_POST['currentcity'];
-$sscroll = $_POST['sscroll'];
-$sscboard = $_POST['sscboard'];
-$sscyear = $_POST['sscyear'];
-$sscgroup = $_POST['sscgroup'];
-$sscresult = $_POST['sscresult'];
-$hscroll = $_POST['hscroll'];
-$hscboard = $_POST['hscboard'];
-$hscyear = $_POST['hscyear'];
-$hscgroup = $_POST['hscgroup'];
-$hscresult = $_POST['hscresult'];
-$honssubject = $_POST['honssubject'];
-$honsresult = $_POST['honsresult'];
-$bangla = $_POST['bangla'];
-$english = $_POST['english'];
+$emergency_contact = $_POST['emergency_contact'];
+$email = $_POST['email'];
+$alternative_email = $_POST['alternative_email'];
 
 
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
-// Check connection
-if (mysqli_connect_errno())
-{
-    echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}
 
 
-$query = "UPDATE `crud01`.`personalinfo` SET `code` = '".$code."',
-                                            `track` = '".$track."',
-                                             `fullname` = '".$fullname."',
-                                              `fathername` = '".$fathername."',
-                                               `mothername` = '".$mothername."',
-                                                `religion` = '".$religion."',
-                                                 `dob` = '".$dob."',
-                                                  `gender` = '".$gender."',
-                                                   `nationality` = '".$nationality."',
-                                                    `nationalid` = '".$nationalid."',
-                                                     `useremail` = '".$useremail."',
-                                                      `mobile` = '".$mobile."',
-                                                       `hometown` = '".$hometown."',
-                                                        `currentcity` = '".$currentcity."',
-                                                         `sscroll` = '".$sscroll."',
-                                                          `sscboard` = '".$sscboard."',
-                                                           `sscyear` = '".$sscyear."',
-                                                            `sscgroup` = '".$sscgroup."',
-                                                             `sscresult` = '".$sscresult."',
-                                                              `hscroll` = '".$hscroll."',
-                                                               `hscboard` = '".$hscboard."',
-                                                                `hscyear` = '".$hscyear."',
-                                                                 `hscgroup` = '".$hscgroup."',
-                                                                  `hscresult` = '".$hscresult."',
-                                                                   `honssubject` = '".$honssubject."',
-                                                                    `honsresult` = '".$honsresult."',
-                                                                     `bangla` = '".$bangla."',
-                                                                      `english` = '".$english."'
-            WHERE `personalinfo`.`id` = $id;";
+$query = "UPDATE `crud01`.`contactinfo` SET `present_address` = '".$present_address."',
+                                            `permanent_address` = '".$permanent_address."',
+                                             `district` = '".$district."',
+                                              `home_phone` = '".$home_phone."',
+                                               `mobile` = '".$mobile."',
+                                                `emergency_contact` = '".$emergency_contact."',
+                                                 `email` = '".$email."',
+                                                  `alternative_email` = '".$alternative_email."',
+        WHERE `contactinfo`.`id` = $id;";
+
 mysqli_query($link, $query);
 
 header('location:list.php');
