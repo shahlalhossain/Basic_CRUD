@@ -14,6 +14,7 @@ $row = mysqli_fetch_assoc($result);
 <body style="text-align: center;">
 <ul>
     <li><a href="create.php">Create New Record</a> </li>
+    <li><a href="list.php">View Full List</a> </li>
 </ul>
 <table border="1" width="100%">
     <tr>
