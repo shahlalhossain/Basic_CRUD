@@ -5,7 +5,7 @@ $query = "select * from academicinfo WHERE id = $id";
 $result = mysqli_query($link, $query);
 $row = mysqli_fetch_assoc($result);
 
-//var_dump($row ['present_address']);
+//var_dump($row ['id']);
 
 ?>
 
@@ -22,12 +22,10 @@ $row = mysqli_fetch_assoc($result);
     <h3>Contact Information</h3>
 
     <label>Level of Education: </label>
-    <select name="level_of_education">
-        <option <?php if ($row['level_of_education'] == "Diploma") echo 'selected'; ?> value="Diploma">Diploma</option>
-        <option <?php if ($row['level_of_education'] == "Bachelor/Honors") echo 'selected'; ?> value="Bachelor/Honors">Bachelor/Honors</option>
-        <option <?php if ($row['level_of_education'] == "Masters") echo 'selected'; ?> value="Masters">Masters</option>
-        <option <?php if ($row['level_of_education'] == "Doctoral") echo 'selected'; ?> value="Doctoral">Doctoral</option>
-    </select>
+    Diploma<input type="radio" name="level_of_education" <?php if($row['level_of_education'] == "Diploma") echo 'checked'; ?> value="Diploma">
+    Bachelor<input type="radio" name="level_of_education" <?php if($row['level_of_education'] == "Bachelor") echo 'checked'; ?> value="Bachelor">
+    Masters<input type="radio" name="level_of_education" <?php if($row['level_of_education'] == "Masters") echo 'checked'; ?> value="Masters">
+    Doctoral<input type="radio" name="level_of_education" <?php if($row['level_of_education'] == "Doctoral") echo 'checked'; ?> value="Doctoral">
     <br>
 
     <label>Exam Title: </label>

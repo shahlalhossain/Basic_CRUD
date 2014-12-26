@@ -11,13 +11,10 @@
     <h3>Academic Information</h3>
 
     <label>Level of Education: </label>
-    <select name="level_of_education">
-        <option selected>Select Education Level</option>
-        <option value="Diploma">Diploma</option>
-        <option value="Bachelor/Honors">Bachelor/Honors</option>
-        <option value="Masters">Masters</option>
-        <option value="Doctoral">Doctoral</option>
-    </select>
+    Diploma<input type="radio" name="level_of_education" value="Diploma">
+    Bachelor<input type="radio" name="level_of_education" value="Bachelor">
+    Masters<input type="radio" name="level_of_education" value="Masters">
+    Doctoral<input type="radio" name="level_of_education" value="Doctoral">
     <br>
 
     <label>Exam Title: </label>

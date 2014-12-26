@@ -1,5 +1,8 @@
 <?php
 
+//print_r($_POST);
+
+$id = $_POST['id'];
 $level_of_education = $_POST['level_of_education'];
 $exam_title = $_POST['exam_title'];
 $subject = $_POST['subject'];

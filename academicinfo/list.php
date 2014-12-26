@@ -3,7 +3,7 @@
 
 <?php
 
-print_r($_POST);
+//print_r($_POST);
 
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 $query = "SELECT * FROM academicinfo";
