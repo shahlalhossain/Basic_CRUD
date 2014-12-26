@@ -11,10 +11,11 @@
     <h3>Contact Information</h3>
 
     <label>Present Adress: </label>
-    <input type="text" name="present_address" />
+    <textarea name="present_address" cols="40" rows="3" ></textarea>
     <br>
+
     <label>Permanent Address: </label>
-    <input type="text" name="permanent_address">
+    <textarea name="present_address" cols="40" rows="3" ></textarea>
     <br>
     <label>District: </label>
     <select name="district">
@@ -27,7 +28,8 @@
         <option value="Sylhet">Sylhet</option>
         <option value="Comilla">Comilla</option>
         <option value="Dinajpur">Dinajpur</option>
-        <option value="Other">Other</option>
+        <option value="Rangpur">Rangpur</option>
+        <option value="Other City">Other City</option>
     </select>
     <br>
     <label>Home Phone: </label>
@@ -45,6 +47,12 @@
     <label>Alternate Email: </label>
     <input type="email" name="alternative_email" />
     <br>
+
+    <label>Gender: </label>
+    <input type="radio" name="gender" value="Male" />Male
+    <input type="radio" name="gender" value="Female" />Female
+    <br>
+
     <button type="submit">Submit</button>
 </form>
 </body>

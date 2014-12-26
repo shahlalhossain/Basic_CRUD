@@ -27,6 +27,7 @@ $row = mysqli_fetch_assoc($result);
         <td>Emergency Contact</td>
         <td>Email</td>
         <td>Alternative Email</td>
+        <td>Gender</td>
         <td>Action</td>
     </tr>
     <?php
@@ -42,6 +43,7 @@ $row = mysqli_fetch_assoc($result);
             <td><?php echo $row['emergency_contact']?></td>
             <td><?php echo $row['email']?></td>
             <td><?php echo $row['alternative_email']?></td>
+            <td><?php echo $row['gender']?></td>
             <td> <a href="edit.php?id=<?php echo $row['id']?>">Edit</a> | <a href="delete.php?id=<?php echo $row['id']?>">Delete</a> |
         </tr>
     <?php

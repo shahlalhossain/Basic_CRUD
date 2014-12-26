@@ -25,6 +25,7 @@ $result = mysqli_query($link, $query);
         <td>Emergency Contact</td>
         <td>Email</td>
         <td>Alternative Email</td>
+        <td>Gender</td>
         <td>Action</td>
     </tr>
     <?php
@@ -40,6 +41,7 @@ $result = mysqli_query($link, $query);
             <td><?php echo $row['emergency_contact']?></td>
             <td><?php echo $row['email']?></td>
             <td><?php echo $row['alternative_email']?></td>
+            <td><?php echo $row['gender']?></td>
             <td> <a href="edit.php?id=<?php echo $row['id']?>">Edit</a> |
                 <a href="delete.php?id=<?php echo $row['id']?>">Delete</a> |
                 <a href="view.php?id=<?php echo $row['id']?>">View</a></td>

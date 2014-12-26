@@ -5,7 +5,7 @@ $query = "select * from contactinfo WHERE id = $id";
 $result = mysqli_query($link, $query);
 $row = mysqli_fetch_assoc($result);
 
-//var_dump($row ['district']);
+//var_dump($row ['present_address']);
 
 ?>
 
@@ -22,23 +22,24 @@ $row = mysqli_fetch_assoc($result);
     <h3>Contact Information</h3>
 
     <label>Present Adress: </label>
-    <input type="text" name="present_address" value="<?php echo $row['present_address'];?>" />
+    <textarea name="present_address"><?php echo $row['present_address'];?>"</textarea>
     <br>
     <label>Permanent Address: </label>
-    <input type="text" name="permanent_address" value="<?php echo $row['permanent_address'];?>">
+    <textarea name="permanent_address"><?php echo $row['permanent_address'];?>"</textarea>
     <br>
     <label>District: </label>
     <select name="district">
 
-        <option <?php if ($row ['district'] == "Dhaka" ) echo 'selected'; ?> value="Dhaka">Dhaka</option>
-        <option <?php if ($row ['district'] == "Rajshahi" ) echo 'selected'; ?>  value="Rajshahi">Rajshahi</option>
-        <option <?php if ($row ['district'] == "Jessore" ) echo 'selected'; ?>  value="Jessore">Jessore</option>
-        <option <?php if ($row ['district'] == "Barisal" ) echo 'selected'; ?>  value="Barisal">Barisal</option>
-        <option <?php if ($row ['district'] == "Chittagong" ) echo 'selected'; ?>  value="Chittagong">Chittagong</option>
-        <option <?php if ($row ['district'] == "Sylhet" ) echo 'selected'; ?>  value="Sylhet">Sylhet</option>
-        <option <?php if ($row ['district'] == "Comilla" ) echo 'selected'; ?>  value="Comilla">Comilla</option>
-        <option <?php if ($row ['district'] == "Dinajpur" ) echo 'selected'; ?>  value="Dinajpur">Dinajpur</option>
-        <option <?php if ($row ['district'] == "Other" ) echo 'selected'; ?>  value="Other">Other</option>
+        <option <?php if ($row['district'] == "Dhaka") echo 'selected'; ?> value="Dhaka">Dhaka</option>
+        <option <?php if ($row['district'] == "Rajshahi") echo 'selected'; ?>  value="Rajshahi">Rajshahi</option>
+        <option <?php if ($row['district'] == "Jessore") echo 'selected'; ?>  value="Jessore">Jessore</option>
+        <option <?php if ($row['district'] == "Barisal") echo 'selected'; ?>  value="Barisal">Barisal</option>
+        <option <?php if ($row['district'] == "Chittagong") echo 'selected'; ?>  value="Chittagong">Chittagong</option>
+        <option <?php if ($row['district'] == "Sylhet") echo 'selected'; ?>  value="Sylhet">Sylhet</option>
+        <option <?php if ($row['district'] == "Comilla") echo 'selected'; ?>  value="Comilla">Comilla</option>
+        <option <?php if ($row['district'] == "Dinajpur") echo 'selected'; ?>  value="Dinajpur">Dinajpur</option>
+        <option <?php if ($row['district'] == "Rangpur") echo 'selected'; ?>  value="Rangpur">Rangpur</option>
+        <option <?php if ($row['district'] == "Other City") echo 'selected'; ?>  value="Other City">Other</option>
 
     </select>
     <br>
@@ -57,6 +58,12 @@ $row = mysqli_fetch_assoc($result);
     <label>Alternate Email: </label>
     <input type="text" name="alternative_email" value="<?php echo $row['alternative_email'];?>" />
     <br>
+
+    <label>Gender: </label>
+    <input type="radio" name="gender" <?php if ($row['gender'] == "Male") echo 'checked'; ?> value="Male" />Male
+    <input type="radio" name="gender" <?php if ($row['gender'] == "Female") echo 'checked'; ?> value="Female" />Female
+    <br>
+
     <button type="submit">Update</button>
 </form>
 </body>
