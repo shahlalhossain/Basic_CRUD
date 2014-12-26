@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bb1f53e-4f6e-4eda-b406-9af54c133c1f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/add.php" afterPath="$PROJECT_DIR$/personalinfo/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/delete.php" afterPath="$PROJECT_DIR$/personalinfo/delete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/edit.php" afterPath="$PROJECT_DIR$/personalinfo/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contactinfo/add.php" afterPath="$PROJECT_DIR$/contactinfo/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contactinfo/create.php" afterPath="$PROJECT_DIR$/contactinfo/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contactinfo/list.php" afterPath="$PROJECT_DIR$/contactinfo/list.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/list.php" afterPath="$PROJECT_DIR$/personalinfo/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/update.php" afterPath="$PROJECT_DIR$/personalinfo/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personalinfo/view.php" afterPath="$PROJECT_DIR$/personalinfo/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crud01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +33,8 @@
       <file leaf-file-name="create.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contactinfo/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.84347826" vertical-offset="70" max-vertical-offset="645">
-              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.7627416" vertical-offset="106" max-vertical-offset="675">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -55,94 +45,25 @@
       <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contactinfo/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="810">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personalinfo/add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="810">
-              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+            <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="420">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="46" />
               <folding>
-                <marker date="1419560093159" expanded="true" signature="1113:1850" placeholder="INSERT INTO ..." />
+                <marker date="1419562631175" expanded="true" signature="423:605" placeholder="INSERT INTO ..." />
+                <marker date="1419562631175" expanded="true" signature="423:739" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personalinfo/list.php">
+        <entry file="file://$PROJECT_DIR$/contactinfo/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="1410">
-              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+            <state vertical-scroll-proportion="-24.0" vertical-offset="189" max-vertical-offset="855">
+              <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1419559578539" expanded="true" signature="81:107" placeholder="SELECT * FRO..personalinfo..." />
-                <marker date="1419559578539" expanded="true" signature="157:205" placeholder="..." />
-                <marker date="1419559578539" expanded="true" signature="164:192" placeholder="..." />
-                <marker date="1419559578539" expanded="true" signature="232:249" placeholder="..." />
-                <marker date="1419559578539" expanded="true" signature="336:1180" placeholder="..." />
-                <marker date="1419559578539" expanded="true" signature="1244:1273" placeholder="..." />
+                <marker date="1419563164891" expanded="true" signature="84:109" placeholder="SELECT * FRO..contactinfo..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personalinfo/view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1470">
-              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1419560093159" expanded="true" signature="100:138" placeholder="SELECT * FRO..personalinfo..." />
-                <marker date="1419560093159" expanded="true" signature="244:292" placeholder="..." />
-                <marker date="1419560093159" expanded="true" signature="251:279" placeholder="..." />
-                <marker date="1419560093159" expanded="true" signature="319:336" placeholder="..." />
-                <marker date="1419560093159" expanded="true" signature="520:1364" placeholder="..." />
-                <marker date="1419560093159" expanded="true" signature="1428:1457" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personalinfo/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="180">
-              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-              <folding>
-                <marker date="1419560093159" expanded="true" signature="100:164" placeholder="DELETE FROM ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personalinfo/edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="3660">
-              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1419560093155" expanded="true" signature="100:138" placeholder="select * fro..personalinfo..." />
-                <marker date="1419560093155" expanded="true" signature="228:278" placeholder="..." />
-                <marker date="1419560093155" expanded="true" signature="235:263" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personalinfo/update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="495" max-vertical-offset="1215">
-              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -160,13 +81,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/personalinfo/list.php" />
         <option value="$PROJECT_DIR$/personalinfo/delete.php" />
         <option value="$PROJECT_DIR$/personalinfo/edit.php" />
         <option value="$PROJECT_DIR$/personalinfo/update.php" />
         <option value="$PROJECT_DIR$/personalinfo/view.php" />
         <option value="$PROJECT_DIR$/personalinfo/add.php" />
         <option value="$PROJECT_DIR$/personalinfo/create.php" />
+        <option value="$PROJECT_DIR$/personalinfo/list.php" />
+        <option value="$PROJECT_DIR$/contactinfo/list.php" />
+        <option value="$PROJECT_DIR$/contactinfo/add.php" />
         <option value="$PROJECT_DIR$/contactinfo/create.php" />
       </list>
     </option>
@@ -301,6 +224,9 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5bb1f53e-4f6e-4eda-b406-9af54c133c1f" name="Default" comment="" />
@@ -322,7 +248,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32832617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33476394" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -379,7 +305,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="810">
           <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
           <folding>
-            <marker date="1419560093159" expanded="true" signature="1113:1850" placeholder="INSERT INTO ..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -390,12 +316,7 @@
           <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419559578539" expanded="true" signature="81:107" placeholder="SELECT * FRO..personalinfo..." />
-            <marker date="1419559578539" expanded="true" signature="157:205" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="164:192" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="232:249" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="336:1180" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="1244:1273" placeholder="..." />
+            <marker date="1419563164891" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..personalinfo..." />
           </folding>
         </state>
       </provider>
@@ -406,12 +327,12 @@
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419560093159" expanded="true" signature="100:138" placeholder="SELECT * FRO..personalinfo..." />
-            <marker date="1419560093159" expanded="true" signature="244:292" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="251:279" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="319:336" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="520:1364" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="1428:1457" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..personalinfo..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -421,7 +342,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           <folding>
-            <marker date="1419560093159" expanded="true" signature="100:164" placeholder="DELETE FROM ..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -432,9 +353,9 @@
           <caret line="234" column="7" selection-start-line="234" selection-start-column="7" selection-end-line="234" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419560093155" expanded="true" signature="100:138" placeholder="select * fro..personalinfo..." />
-            <marker date="1419560093155" expanded="true" signature="228:278" placeholder="..." />
-            <marker date="1419560093155" expanded="true" signature="235:263" placeholder="..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="select * fro..personalinfo..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -462,7 +383,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="810">
           <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
           <folding>
-            <marker date="1419560093159" expanded="true" signature="1113:1850" placeholder="INSERT INTO ..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -473,12 +394,7 @@
           <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419559578539" expanded="true" signature="81:107" placeholder="SELECT * FRO..personalinfo..." />
-            <marker date="1419559578539" expanded="true" signature="157:205" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="164:192" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="232:249" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="336:1180" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="1244:1273" placeholder="..." />
+            <marker date="1419563164891" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..personalinfo..." />
           </folding>
         </state>
       </provider>
@@ -489,12 +405,12 @@
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419560093159" expanded="true" signature="100:138" placeholder="SELECT * FRO..personalinfo..." />
-            <marker date="1419560093159" expanded="true" signature="244:292" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="251:279" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="319:336" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="520:1364" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="1428:1457" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..personalinfo..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -504,7 +420,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           <folding>
-            <marker date="1419560093159" expanded="true" signature="100:164" placeholder="DELETE FROM ..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -515,9 +431,9 @@
           <caret line="234" column="7" selection-start-line="234" selection-start-column="7" selection-end-line="234" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419560093155" expanded="true" signature="100:138" placeholder="select * fro..personalinfo..." />
-            <marker date="1419560093155" expanded="true" signature="228:278" placeholder="..." />
-            <marker date="1419560093155" expanded="true" signature="235:263" placeholder="..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="select * fro..personalinfo..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -545,7 +461,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="810">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
-            <marker date="1419560093159" expanded="true" signature="1113:1850" placeholder="INSERT INTO ..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -556,12 +472,7 @@
           <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419559578539" expanded="true" signature="81:107" placeholder="SELECT * FRO..personalinfo..." />
-            <marker date="1419559578539" expanded="true" signature="157:205" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="164:192" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="232:249" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="336:1180" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="1244:1273" placeholder="..." />
+            <marker date="1419563164891" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..personalinfo..." />
           </folding>
         </state>
       </provider>
@@ -572,12 +483,12 @@
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419560093159" expanded="true" signature="100:138" placeholder="SELECT * FRO..personalinfo..." />
-            <marker date="1419560093159" expanded="true" signature="244:292" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="251:279" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="319:336" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="520:1364" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="1428:1457" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..personalinfo..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -587,7 +498,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           <folding>
-            <marker date="1419560093159" expanded="true" signature="100:164" placeholder="DELETE FROM ..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -598,9 +509,9 @@
           <caret line="234" column="7" selection-start-line="234" selection-start-column="7" selection-end-line="234" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419560093155" expanded="true" signature="100:138" placeholder="select * fro..personalinfo..." />
-            <marker date="1419560093155" expanded="true" signature="228:278" placeholder="..." />
-            <marker date="1419560093155" expanded="true" signature="235:263" placeholder="..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="select * fro..personalinfo..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -628,7 +539,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1419560093159" expanded="true" signature="1113:1850" placeholder="INSERT INTO ..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -639,12 +550,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419559578539" expanded="true" signature="81:107" placeholder="SELECT * FRO..personalinfo..." />
-            <marker date="1419559578539" expanded="true" signature="157:205" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="164:192" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="232:249" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="336:1180" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="1244:1273" placeholder="..." />
+            <marker date="1419563164891" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..personalinfo..." />
           </folding>
         </state>
       </provider>
@@ -655,12 +561,12 @@
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419560093159" expanded="true" signature="100:138" placeholder="SELECT * FRO..personalinfo..." />
-            <marker date="1419560093159" expanded="true" signature="244:292" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="251:279" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="319:336" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="520:1364" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="1428:1457" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..personalinfo..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -670,7 +576,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1419560093159" expanded="true" signature="100:164" placeholder="DELETE FROM ..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -689,9 +595,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419560093155" expanded="true" signature="100:138" placeholder="select * fro..personalinfo..." />
-            <marker date="1419560093155" expanded="true" signature="228:278" placeholder="..." />
-            <marker date="1419560093155" expanded="true" signature="235:263" placeholder="..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="select * fro..personalinfo..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -788,79 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personalinfo/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="495" max-vertical-offset="1215">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalinfo/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="3660">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419560093155" expanded="true" signature="100:138" placeholder="select * fro..personalinfo..." />
-            <marker date="1419560093155" expanded="true" signature="228:278" placeholder="..." />
-            <marker date="1419560093155" expanded="true" signature="235:263" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalinfo/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="180">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-          <folding>
-            <marker date="1419560093159" expanded="true" signature="100:164" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalinfo/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1470">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419560093159" expanded="true" signature="100:138" placeholder="SELECT * FRO..personalinfo..." />
-            <marker date="1419560093159" expanded="true" signature="244:292" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="251:279" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="319:336" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="520:1364" placeholder="..." />
-            <marker date="1419560093159" expanded="true" signature="1428:1457" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalinfo/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="1410">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1419559578539" expanded="true" signature="81:107" placeholder="SELECT * FRO..personalinfo..." />
-            <marker date="1419559578539" expanded="true" signature="157:205" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="164:192" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="232:249" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="336:1180" placeholder="..." />
-            <marker date="1419559578539" expanded="true" signature="1244:1273" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personalinfo/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="810">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding>
-            <marker date="1419560093159" expanded="true" signature="1113:1850" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/personalinfo/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="3525">
@@ -871,18 +704,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/personalinfo/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.90586144" vertical-offset="0" max-vertical-offset="810">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <folding>
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personalinfo/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.052083332" vertical-offset="0" max-vertical-offset="1470">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..personalinfo..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personalinfo/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.052083332" vertical-offset="0" max-vertical-offset="576">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding>
+            <marker date="1419560093159" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personalinfo/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.052083332" vertical-offset="0" max-vertical-offset="3660">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="select * fro..personalinfo..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419560093155" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personalinfo/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8854167" vertical-offset="0" max-vertical-offset="1215">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personalinfo/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.052083332" vertical-offset="0" max-vertical-offset="1425">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1419563164891" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..personalinfo..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contactinfo/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.0" vertical-offset="189" max-vertical-offset="855">
+          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1419563164891" expanded="true" signature="84:109" placeholder="SELECT * FRO..contactinfo..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contactinfo/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="420">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <marker date="1419562631175" expanded="true" signature="423:605" placeholder="INSERT INTO ..." />
+            <marker date="1419562631175" expanded="true" signature="423:739" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contactinfo/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84347826" vertical-offset="70" max-vertical-offset="645">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.7627416" vertical-offset="106" max-vertical-offset="675">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

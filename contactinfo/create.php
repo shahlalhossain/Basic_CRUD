@@ -25,12 +25,14 @@
     <label>Mobile: </label>
     <input type="text" name="mobile" />
     <br>
+    <label>Emergency Contact: </label>
+    <input type="text" name="emergency_contact" />
     <br>
     <label>Email: </label>
     <input type="text" name="email" />
     <br>
     <label>Alternate Email: </label>
-    <input type="text" name="alternate_email" />
+    <input type="text" name="alternative_email" />
     <br>
     <button type="submit">Submit</button>
 </form>

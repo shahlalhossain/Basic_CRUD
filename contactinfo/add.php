@@ -2,46 +2,20 @@
 //print_r($_POST);
 
 
-$code = $_POST['code'];
-$track = $_POST['track'];
-$fullname = $_POST['fullname'];
-$fathername = $_POST['fathername'];
-$mothername = $_POST['mothername'];
-$religion = $_POST['religion'];
-$dob = $_POST['dob'];
-$gender = $_POST['gender'];
-$nationality = $_POST['nationality'];
-$nationalid = $_POST['nationalid'];
-$useremail = $_POST['useremail'];
+$present_address = $_POST['present_address'];
+$permanent_address = $_POST['permanent_address'];
+$district = $_POST['district'];
+$home_phone = $_POST['home_phone'];
 $mobile = $_POST['mobile'];
-$hometown = $_POST['hometown'];
-$currentcity = $_POST['currentcity'];
-$sscroll = $_POST['sscroll'];
-$sscboard = $_POST['sscboard'];
-$sscyear = $_POST['sscyear'];
-$sscgroup = $_POST['sscgroup'];
-$sscresult = $_POST['sscresult'];
-$hscroll = $_POST['hscroll'];
-$hscboard = $_POST['hscboard'];
-$hscyear = $_POST['hscyear'];
-$hscgroup = $_POST['hscgroup'];
-$hscresult = $_POST['hscresult'];
-$honssubject = $_POST['honssubject'];
-$honsresult = $_POST['honsresult'];
-$bangla = $_POST['bangla'];
-$english = $_POST['english'];
+$emergency_contact = $_POST['emergency_contact'];
+$email = $_POST['email'];
+$alternative_email = $_POST['alternative_email'];
 
 
-$link = mysqli_connect("localhost", "root", "lict@2, "crud01");
-// Check connection
-if (mysqli_connect_errno())
-{
-    echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}
+$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 
-
-$query = "INSERT INTO `crud01`.`personalinfo`(`code`, `track`, `fullname`, `fathername`, `mothername`, `religion`, `dob`, `gender`, `nationality`, `nationalid`, `useremail`, `mobile`, `hometown`, `currentcity`, `sscroll`, `sscboard`, `sscyear`, `sscgroup`, `sscresult`, `hscroll`, `hscboard`, `hscyear`, `hscgroup`, `hscresult`, `honssubject`, `honsresult`, `bangla`, `english`)
-VALUES ('$code', '$track', '$fullname', '$fathername', '$mothername', '$religion', '$dob', '$gender', '$nationality', '$nationalid', '$useremail', '$mobile', '$hometown', '$currentcity', '$sscroll', '$sscboard', '$sscyear', '$sscgroup', '$sscresult', '$hscroll', '$hscboard', '$hscyear', '$hscgroup', '$hscresult', '$honssubject', '$honsresult', '$bangla', '$english')";
+$query = "INSERT INTO `crud01`.`contactinfo`(`present_address`, `permanent_address`, `district`, `home_phone`, `mobile`, `emergency_contact`, `email`, `alternative_email`)
+            VALUES ('$present_address', '$permanent_address', '$district', '$home_phone', '$mobile', '$emergency_contact', '$email', '$alternative_email')";
 mysqli_query($link, $query);
 
 
