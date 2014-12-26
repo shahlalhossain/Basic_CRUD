@@ -4,6 +4,9 @@ $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 $query = "select * from contactinfo WHERE id = $id";
 $result = mysqli_query($link, $query);
 $row = mysqli_fetch_assoc($result);
+
+//var_dump($row ['district']);
+
 ?>
 
 <html>
@@ -25,7 +28,19 @@ $row = mysqli_fetch_assoc($result);
     <input type="text" name="permanent_address" value="<?php echo $row['permanent_address'];?>">
     <br>
     <label>District: </label>
-    <input type="text" name="district" value="<?php echo $row['district'];?>" />
+    <select name="district">
+
+        <option <?php if ($row ['district'] == "Dhaka" ) echo 'selected'; ?> value="Dhaka">Dhaka</option>
+        <option <?php if ($row ['district'] == "Rajshahi" ) echo 'selected'; ?>  value="Rajshahi">Rajshahi</option>
+        <option <?php if ($row ['district'] == "Jessore" ) echo 'selected'; ?>  value="Jessore">Jessore</option>
+        <option <?php if ($row ['district'] == "Barisal" ) echo 'selected'; ?>  value="Barisal">Barisal</option>
+        <option <?php if ($row ['district'] == "Chittagong" ) echo 'selected'; ?>  value="Chittagong">Chittagong</option>
+        <option <?php if ($row ['district'] == "Sylhet" ) echo 'selected'; ?>  value="Sylhet">Sylhet</option>
+        <option <?php if ($row ['district'] == "Comilla" ) echo 'selected'; ?>  value="Comilla">Comilla</option>
+        <option <?php if ($row ['district'] == "Dinajpur" ) echo 'selected'; ?>  value="Dinajpur">Dinajpur</option>
+        <option <?php if ($row ['district'] == "Other" ) echo 'selected'; ?>  value="Other">Other</option>
+
+    </select>
     <br>
     <label>Home Phone: </label>
     <input type="text" name="home_phone" value="<?php echo $row['home_phone'];?>" />

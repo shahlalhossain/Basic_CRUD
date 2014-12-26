@@ -17,7 +17,18 @@
     <input type="text" name="permanent_address">
     <br>
     <label>District: </label>
-    <input type="text" name="district" />
+    <select name="district">
+        <option selected>Select Your District</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Rajshahi">Rajshahi</option>
+        <option value="Jessore">Jessore</option>
+        <option value="Barisal">Barisal</option>
+        <option value="Chittagong">Chittagong</option>
+        <option value="Sylhet">Sylhet</option>
+        <option value="Comilla">Comilla</option>
+        <option value="Dinajpur">Dinajpur</option>
+        <option value="Other">Other</option>
+    </select>
     <br>
     <label>Home Phone: </label>
     <input type="text" name="home_phone" />
@@ -29,10 +40,10 @@
     <input type="text" name="emergency_contact" />
     <br>
     <label>Email: </label>
-    <input type="text" name="email" />
+    <input type="email" name="email" />
     <br>
     <label>Alternate Email: </label>
-    <input type="text" name="alternative_email" />
+    <input type="email" name="alternative_email" />
     <br>
     <button type="submit">Submit</button>
 </form>
