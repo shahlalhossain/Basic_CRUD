@@ -1,7 +1,7 @@
 <?php
 //print_r($_POST);
 
-$id = $_GET['id'];
+$id = $_POST['id'];
 $present_address = $_POST['present_address'];
 $permanent_address = $_POST['permanent_address'];
 $district = $_POST['district'];
@@ -17,12 +17,12 @@ $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 
 $query = "UPDATE `crud01`.`contactinfo` SET `present_address` = '".$present_address."',
                                             `permanent_address` = '".$permanent_address."',
-                                             `district` = '".$district."',
-                                              `home_phone` = '".$home_phone."',
-                                               `mobile` = '".$mobile."',
-                                                `emergency_contact` = '".$emergency_contact."',
-                                                 `email` = '".$email."',
-                                                  `alternative_email` = '".$alternative_email."',
+                                            `district` = '".$district."',
+                                            `home_phone` = '".$home_phone."',
+                                            `mobile` = '".$mobile."',
+                                            `emergency_contact` = '".$emergency_contact."',
+                                            `email` = '".$email."',
+                                            `alternative_email` = '".$alternative_email."'
         WHERE `contactinfo`.`id` = $id;";
 
 mysqli_query($link, $query);
