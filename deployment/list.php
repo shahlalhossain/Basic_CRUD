@@ -2,7 +2,7 @@
 
 
 <?php
-$link = mysqli_connect("localhost", "root", "479874", "crud01");
+$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 $query = "SELECT * FROM deploment";
 $result = mysqli_query($link, $query);
 ?>
