@@ -1,7 +1,7 @@
 <?php
 $id = $_GET['id'];
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
-$query = "select * from contactinfo WHERE id = $id";
+$query = "select * from traininginfo WHERE id = $id";
 $result = mysqli_query($link, $query);
 $row = mysqli_fetch_assoc($result);
 
@@ -19,49 +19,40 @@ $row = mysqli_fetch_assoc($result);
 <form action="update.php" method="post">
     <input type="hidden" name="id" value="<?php echo $row['id'];?>" />
 
-    <h3>Contact Information</h3>
+    <h3>Training Detail</h3>
 
-    <label>Present Adress: </label>
-    <textarea name="present_address"><?php echo $row['present_address'];?>"</textarea>
+    <label>Training Title: </label>
+    <input type="text" name="training_title" value="<?php echo $row['training_title'];?>" />
     <br>
-    <label>Permanent Address: </label>
-    <textarea name="permanent_address"><?php echo $row['permanent_address'];?>"</textarea>
+    <label>Training Description: </label>
+    <textarea name="description" cols="40" rows="3"><?php echo $row['description'];?></textarea>
     <br>
-    <label>District: </label>
-    <select name="district">
-
-        <option <?php if ($row['district'] == "Dhaka") echo 'selected'; ?> value="Dhaka">Dhaka</option>
-        <option <?php if ($row['district'] == "Rajshahi") echo 'selected'; ?>  value="Rajshahi">Rajshahi</option>
-        <option <?php if ($row['district'] == "Jessore") echo 'selected'; ?>  value="Jessore">Jessore</option>
-        <option <?php if ($row['district'] == "Barisal") echo 'selected'; ?>  value="Barisal">Barisal</option>
-        <option <?php if ($row['district'] == "Chittagong") echo 'selected'; ?>  value="Chittagong">Chittagong</option>
-        <option <?php if ($row['district'] == "Sylhet") echo 'selected'; ?>  value="Sylhet">Sylhet</option>
-        <option <?php if ($row['district'] == "Comilla") echo 'selected'; ?>  value="Comilla">Comilla</option>
-        <option <?php if ($row['district'] == "Dinajpur") echo 'selected'; ?>  value="Dinajpur">Dinajpur</option>
-        <option <?php if ($row['district'] == "Rangpur") echo 'selected'; ?>  value="Rangpur">Rangpur</option>
-        <option <?php if ($row['district'] == "Other City") echo 'selected'; ?>  value="Other City">Other</option>
-
-    </select>
+    <label>Institute: </label>
+    <input type="text" name="institute" value="<?php echo $row['institute'];?>" />
     <br>
-    <label>Home Phone: </label>
-    <input type="text" name="home_phone" value="<?php echo $row['home_phone'];?>" />
+    <label>Address: </label>
+    <textarea name="address" cols="40" rows="3"><?php echo $row['address'];?></textarea>
     <br>
-    <label>Mobile: </label>
-    <input type="text" name="mobile" value="<?php echo $row['mobile'];?>" />
+    <label>Training Year: </label>
+    <input type="text" name="training_year" value="<?php echo $row['training_year'];?>" />
     <br>
-    <label>Emergency Contact: </label>
-    <input type="text" name="emergency_contact" value="<?php echo $row['emergency_contact'];?>" />
-    <br>
-    <label>Email: </label>
-    <input type="text" name="email" value="<?php echo $row['email'];?>" />
-    <br>
-    <label>Alternate Email: </label>
-    <input type="text" name="alternative_email" value="<?php echo $row['alternative_email'];?>" />
+    <label>Duration (in days): </label>
+    <input type="text" name="duration" value="<?php echo $row['duration'];?>" />
     <br>
 
-    <label>Gender: </label>
-    <input type="radio" name="gender" <?php if ($row['gender'] == "Male") echo 'checked'; ?> value="Male" />Male
-    <input type="radio" name="gender" <?php if ($row['gender'] == "Female") echo 'checked'; ?> value="Female" />Female
+    <h3>Training Detail</h3>
+
+    <label>Start Date: </label>
+    <input type="text" name="start_date" value="<?php echo $row['start_date'];?>" />
+    <br>
+    <label>End Date: </label>
+    <input type="text" name="end_date" value="<?php echo $row['end_date'];?>" />
+    <br>
+    <label>Course Title: </label>
+    <input type="text" name="course_title" value="<?php echo $row['course_title'];?>" />
+    <br>
+    <label>Trainer Detail: </label>
+    <textarea name="trainer_detail" cols="40" rows="3"><?php echo $row['trainer_detail'];?></textarea>
     <br>
 
     <button type="submit">Update</button>

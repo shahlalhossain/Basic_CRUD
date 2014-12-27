@@ -15,7 +15,7 @@ $alternative_email = $_POST['alternative_email'];
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 
 
-$query = "UPDATE `crud01`.`deploment` SET `present_address` = '".$present_address."',
+$query = "UPDATE `crud01`.`contactinfo` SET `present_address` = '".$present_address."',
                                             `permanent_address` = '".$permanent_address."',
                                             `district` = '".$district."',
                                             `home_phone` = '".$home_phone."',
@@ -23,7 +23,7 @@ $query = "UPDATE `crud01`.`deploment` SET `present_address` = '".$present_addres
                                             `emergency_contact` = '".$emergency_contact."',
                                             `email` = '".$email."',
                                             `alternative_email` = '".$alternative_email."'
-        WHERE `deploment`.`id` = $id;";
+        WHERE `contactinfo`.`id` = $id;";
 
 mysqli_query($link, $query);
 

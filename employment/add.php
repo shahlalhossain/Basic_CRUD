@@ -12,7 +12,7 @@ $duration = $_POST['duration'];
 $responsibilities = $_POST['responsibilities'];
 
 
-$link = mysqli_connect("localhost", "root", "479874", "crud01");
+$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 
 $query = "INSERT INTO `crud01`.`deploment`(`company_name`, `company_business`, `address`, `designation`, `department`, `timefrom`, `timeto`, `duration`, `responsibilities`)
             VALUES ('$company_name', '$company_business', '$address', '$designation', '$department', '$timefrom', '$timeto', '$duration', '$responsibilities')";

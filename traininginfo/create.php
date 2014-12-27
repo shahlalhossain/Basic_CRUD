@@ -29,7 +29,7 @@
     <input type="text" name="duration" />
     <br>
     
-    <h3>Training Detail</h3>
+    <h3>Course Detail</h3>
  
     <label>Start Date: </label>
     <input type="text" name="start_date" />

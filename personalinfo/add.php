@@ -31,14 +31,7 @@ $honsresult = $_POST['honsresult'];
 $bangla = $_POST['bangla'];
 $english = $_POST['english'];
 
-
-$link = mysqli_connect("localhost", "root", "lict@2, "crud01");
-// Check connection
-if (mysqli_connect_errno())
-{
-    echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}
-
+$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 
 $query = "INSERT INTO `crud01`.`personalinfo`(`code`, `track`, `fullname`, `fathername`, `mothername`, `religion`, `dob`, `gender`, `nationality`, `nationalid`, `useremail`, `mobile`, `hometown`, `currentcity`, `sscroll`, `sscboard`, `sscyear`, `sscgroup`, `sscresult`, `hscroll`, `hscboard`, `hscyear`, `hscgroup`, `hscresult`, `honssubject`, `honsresult`, `bangla`, `english`)
 VALUES ('$code', '$track', '$fullname', '$fathername', '$mothername', '$religion', '$dob', '$gender', '$nationality', '$nationalid', '$useremail', '$mobile', '$hometown', '$currentcity', '$sscroll', '$sscboard', '$sscyear', '$sscgroup', '$sscresult', '$hscroll', '$hscboard', '$hscyear', '$hscgroup', '$hscresult', '$honssubject', '$honsresult', '$bangla', '$english')";
