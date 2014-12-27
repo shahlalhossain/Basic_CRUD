@@ -1,0 +1,54 @@
+
+
+
+<?php
+$link = mysqli_connect("localhost", "root", "479874", "crud01");
+$query = "SELECT * FROM deploment";
+$result = mysqli_query($link, $query);
+?>
+<html>
+<head>
+    <title></title>
+</head>
+<body style="text-align: center;">
+<ul>
+    <li><a href="create.php">Create New Record</a> </li>
+</ul>
+<table border="1" width="100%">
+    <tr>
+        <td>ID</td>
+        <td>Company Name</td>
+        <td>Company Bussiness</td>
+        <td>Address</td>
+        <td>Designation</td>
+        <td>Deparment</td>
+        <td>From</td>
+        <td>To</td>
+        <td>Employment Duration</td>
+        <td>Responsibility</td>
+        <td>Action</td>
+    </tr>
+    <?php
+    foreach($result as $row){
+        ?>
+        <tr>
+            <td><?php echo $row['id']?></td>
+            <td><?php echo $row['company_name']?></td>
+            <td><?php echo $row['permanent_address']?></td>
+            <td><?php echo $row['district']?></td>
+            <td><?php echo $row['home_phone']?></td>
+            <td><?php echo $row['mobile']?></td>
+            <td><?php echo $row['emergency_contact']?></td>
+            <td><?php echo $row['email']?></td>
+            <td><?php echo $row['alternative_email']?></td>
+            <td><?php echo $row['gender']?></td>
+            <td> <a href="edit.php?id=<?php echo $row['id']?>">Edit</a> |
+                <a href="delete.php?id=<?php echo $row['id']?>">Delete</a> |
+                <a href="view.php?id=<?php echo $row['id']?>">View</a></td>
+        </tr>
+    <?php
+    }
+    ?>
+</table>
+</body>
+</html>
