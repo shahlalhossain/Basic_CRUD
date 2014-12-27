@@ -1,7 +1,7 @@
 <?php
 $id = $_GET['id'];
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
-$query = "SELECT * FROM ictskill WHERE id = $id";
+$query = "SELECT * FROM reference WHERE id = $id";
 $result = mysqli_query($link, $query);
 $row = mysqli_fetch_assoc($result);
 //print_r($row);
@@ -19,10 +19,14 @@ $row = mysqli_fetch_assoc($result);
 <table border="1" width="100%">
     <tr>
         <td>ID</td>
-        <td>Experience Category</td>
-        <td>Skill</td>
-        <td>Skill Description</td>
-        <td> Extracurricular Activities</td>
+        <td>Reference Name</td>
+        <td>Organization</td>
+        <td>Address</td>
+        <td>Relation</td>
+        <td>Phone (Office)</td>
+        <td>Phone (Home)</td>
+        <td>Mobile</td>
+        <td>Email</td>
         <td>Action</td>
     </tr>
     <?php
@@ -30,10 +34,14 @@ $row = mysqli_fetch_assoc($result);
         ?>
         <tr>
             <td><?php echo $row['id']?></td>
-            <td><?php echo $row['exp_category']?></td>
-            <td><?php echo $row['skill']?></td>
-            <td><?php echo $row['skill_description']?></td>
-            <td><?php echo $row['extr_activity']?></td>
+            <td><?php echo $row['name']?></td>
+            <td><?php echo $row['organization']?></td>
+            <td><?php echo $row['address']?></td>
+            <td><?php echo $row['relation']?></td>
+            <td><?php echo $row['office_phone']?></td>
+            <td><?php echo $row['home_phone']?></td>
+            <td><?php echo $row['mobile']?></td>
+            <td><?php echo $row['email']?></td>
 
             <td>
                 <a href="edit.php?id=<?php echo $row['id']?>">Edit</a> |

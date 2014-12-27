@@ -8,32 +8,35 @@
 <body style="text-align: center; width: 100%; height: 100%;">
 <form action="add.php" method="POST">
 
-    <h3>Reference Information</h3>
+    <h3>ICT Skills Information</h3>
 
-    <label>Name: </label>
-    <input type="text" name="name">
+    <label> Experience Category: </label>
+    <select name="exp_category">
+        <option value="Computer Engineering" selected>Computer Engineering</option>
+        <option>--------------------</option>
+        <option>--------------------</option>
+        <option>--------------------</option>
+    </select>
     <br>
-    <label>Organization: </label>
-    <input type="text" name="organization">
+    <label>Skill: </label>
+    <select name="skill">
+        <option value="Programming">Programming</option>
+        <option value="Programming 123">Programming 123</option>
+        <option value="Database">Database</option>
+        <option value="Programming ABC">Programming ABC</option>
+        <option value="Database 123">Database 123</option>
+        <option value="Programming XYZ">Programming XYZ</option>
+        <option value="Database XYZ">Database XYZ</option>
+        <option value="XPath/JQuery/XLink/XPointer">XPath/JQuery/XLink/XPointer</option>
+    </select>
     <br>
 
-    <label>Permanent Address: </label>
-    <textarea name="address" cols="40" rows="3" ></textarea>
+    <label>Skill Description: </label>
+    <textarea name="skill_description" cols="40" rows="3" ></textarea>
     <br>
-    <label>Relation: </label>
-    <input type="text" name="relation" />
-    <br>
-    <label>Phone (Office): </label>
-    <input type="text" name="office_phone" />
-    <br>
-    <label>Phone (Home): </label>
-    <input type="text" name="home_phone" />
-    <br>
-    <label>Mobile: </label>
-    <input type="text" name="mobile" />
-    <br>
-    <label>Email: </label>
-    <input type="email" name="email" />
+
+    <label> Extracurricular Activities: </label>
+    <textarea name="extr_activity" cols="40" rows="3" ></textarea>
     <br>
 
     <button type="submit">Submit</button>
