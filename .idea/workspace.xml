@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bb1f53e-4f6e-4eda-b406-9af54c133c1f" name="Default" comment="" />
+    <list default="true" id="5bb1f53e-4f6e-4eda-b406-9af54c133c1f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employment/list.php" afterPath="$PROJECT_DIR$/employment/list.php" />
+    </list>
     <ignored path="crud01.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -35,25 +37,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employment/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6063269" vertical-offset="0" max-vertical-offset="569">
-              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="435">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="41" />
               <folding>
-                <marker date="1419637965280" expanded="true" signature="434:755" placeholder="INSERT INTO ..." />
+                <marker date="1419638001628" expanded="true" signature="436:757" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="list.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/employment/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="885">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.26418787" vertical-offset="180" max-vertical-offset="885">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding>
-                <marker date="1419611247760" expanded="true" signature="84:109" placeholder="SELECT * FRO..contactinfo..." />
+                <marker date="1419638198721" expanded="true" signature="84:107" placeholder="SELECT * FRO..deploment..." />
               </folding>
             </state>
           </provider>
@@ -141,6 +143,7 @@
         <option value="$PROJECT_DIR$/academicinfo/create.php" />
         <option value="$PROJECT_DIR$/employment/create.php" />
         <option value="$PROJECT_DIR$/employment/add.php" />
+        <option value="$PROJECT_DIR$/employment/list.php" />
       </list>
     </option>
   </component>
@@ -149,10 +152,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
-    <option name="y" value="-4" />
-    <option name="width" value="1387" />
-    <option name="height" value="904" />
+    <option name="x" value="313" />
+    <option name="y" value="33" />
+    <option name="width" value="693" />
+    <option name="height" value="846" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -274,16 +277,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="-4" width="1387" height="904" extended-state="6" />
+    <frame x="313" y="33" width="693" height="846" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19363058" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2090784" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21040893" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4347158" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -650,16 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employment/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1419611247760" expanded="true" signature="84:109" placeholder="SELECT * FRO..contactinfo..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/employment/view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
@@ -708,10 +701,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/employment/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6063269" vertical-offset="0" max-vertical-offset="569">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="41" />
           <folding>
-            <marker date="1419637965280" expanded="true" signature="434:755" placeholder="INSERT INTO ..." />
+            <marker date="1419638001628" expanded="true" signature="436:757" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employment/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26418787" vertical-offset="180" max-vertical-offset="885">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <marker date="1419638198721" expanded="true" signature="84:107" placeholder="SELECT * FRO..deploment..." />
           </folding>
         </state>
       </provider>
