@@ -1,8 +1,8 @@
 <?php
 
-$link = mysqli_connect("localhost", "root", "lict@2", "ftfl2nd");
+$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 
-$query = "SELECT * FROM emails";
+$query = "SELECT * FROM cofcrud";
 
 $result = mysqli_query($link, $query);
 
@@ -37,7 +37,7 @@ $result = mysqli_query($link, $query);
             <td><?php echo $row['email']?></td>
             <td><?php echo $row['created']?></td>
 
-            <td> <a href="#">Edit</a> |
+            <td> <a href="edit_email.php?id=<?php echo $row['id']?>">Edit</a> |
                  <a href="delete_email.php?id=<?php echo $row['id']?>">Delete</a> |
                  <a href="view_email.php?id=<?php echo $row['id']?>">View</a>
             </td>

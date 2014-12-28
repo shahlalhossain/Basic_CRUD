@@ -22,10 +22,10 @@ $row = mysqli_fetch_assoc($result);
     <h3>Contact Information</h3>
 
     <label>Present Adress: </label>
-    <textarea name="present_address"><?php echo $row['present_address'];?>"</textarea>
+    <textarea name="present_address"><?php echo $row['present_address'];?></textarea>
     <br>
     <label>Permanent Address: </label>
-    <textarea name="permanent_address"><?php echo $row['permanent_address'];?>"</textarea>
+    <textarea name="permanent_address"><?php echo $row['permanent_address'];?></textarea>
     <br>
     <label>District: </label>
     <select name="district">

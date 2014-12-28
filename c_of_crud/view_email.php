@@ -2,9 +2,9 @@
 
 $id = $_GET['id'];
 
-$link = mysqli_connect("localhost", "root", "lict@2", "ftfl2nd");
+$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 
-$query = "SELECT * FROM emails WHERE id = $id";
+$query = "SELECT * FROM cofcrud WHERE id = $id";
 
 $result = mysqli_query($link, $query);
 
@@ -43,7 +43,10 @@ $row = mysqli_fetch_assoc($result);
             <td><?php echo $row['email']?></td>
             <td><?php echo $row['created']?></td>
 
-            <td> <a href="#">Edit</a> | <a href="delete_email.php?id=<?php echo $row['id']?>">Delete</a></td>
+            <td>
+                <a href="edit_email.php?id=<?php echo $row['id']?>">Edit</a> |
+                <a href="delete_email.php?id=<?php echo $row['id']?>">Delete</a>
+            </td>
         </tr>
 
     <?php
