@@ -2,28 +2,31 @@
 //print_r($_POST);
 
 $id = $_POST['id'];
-$present_address = $_POST['present_address'];
-$permanent_address = $_POST['permanent_address'];
-$district = $_POST['district'];
-$home_phone = $_POST['home_phone'];
-$mobile = $_POST['mobile'];
-$emergency_contact = $_POST['emergency_contact'];
-$email = $_POST['email'];
-$alternative_email = $_POST['alternative_email'];
+$company_name = $_POST['company_name'];
+$company_business = $_POST['company_business'];
+$address = $_POST['address'];
+$designation = $_POST['designation'];
+$department = $_POST['department'];
+$timefrom = $_POST['timefrom'];
+$timeto = $_POST['timeto'];
+$duration = $_POST['duration'];
+$responsibilities = $_POST['responsibilities'];
+
 
 
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 
 
-$query = "UPDATE `crud01`.`deploment` SET `present_address` = '".$present_address."',
-                                            `permanent_address` = '".$permanent_address."',
-                                            `district` = '".$district."',
-                                            `home_phone` = '".$home_phone."',
-                                            `mobile` = '".$mobile."',
-                                            `emergency_contact` = '".$emergency_contact."',
-                                            `email` = '".$email."',
-                                            `alternative_email` = '".$alternative_email."'
-        WHERE `deploment`.`id` = $id;";
+$query = "UPDATE `crud01`.`employment` SET `company_name` = '".$company_name."',
+                                            `company_business` = '".$company_business."',
+                                            `address` = '".$address."',
+                                            `designation` = '".$designation."',
+                                            `department` = '".$department."',
+                                            `timefrom` = '".$timefrom."',
+                                            `timeto` = '".$timeto."',
+                                            `duration` = '".$duration."',
+                                            `responsibilities` = '".$responsibilities."'
+        WHERE `employment`.`id` = $id;";
 
 mysqli_query($link, $query);
 

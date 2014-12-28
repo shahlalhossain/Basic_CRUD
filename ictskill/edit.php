@@ -33,7 +33,13 @@ $row = mysqli_fetch_assoc($result);
     <select name="skill">
         <option selected>Choose Your Skilled Field</option>
         <option <?php if ($row['skill'] == "Programming") echo 'selected'; ?> value="Programming">Programming</option>
+        <option <?php if ($row['skill'] == "Programming 123") echo 'selected'; ?> value="Programming 123">Programming 123</option>
+        <option <?php if ($row['skill'] == "Programming ABC") echo 'selected'; ?> value="Programming ABC">Programming ABC</option>
+        <option <?php if ($row['skill'] == "Programming XYZ") echo 'selected'; ?> value="Programming XYZ">Programming XYZ</option>
         <option <?php if ($row['skill'] == "Database") echo 'selected'; ?> value="Database">Database</option>
+        <option <?php if ($row['skill'] == "Database 123") echo 'selected'; ?> value="Database">Database 123</option>
+        <option <?php if ($row['skill'] == "Database ABC") echo 'selected'; ?> value="Database">Database ABC</option>
+        <option <?php if ($row['skill'] == "Database XYZ") echo 'selected'; ?> value="Database">Database XYZ</option>
         <option <?php if ($row['skill'] == "XPath/JQuery/XLink/XPointer") echo 'selected'; ?> value="XPath/JQuery/XLink/XPointer">XPath/JQuery/XLink/XPointer</option>
     </select>
     <br>

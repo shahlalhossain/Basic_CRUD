@@ -33,42 +33,41 @@ $english = $_POST['english'];
 
 
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
-// Check connection
-if (mysqli_connect_errno())
-{
-    echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}
+
 
 
 $query = "UPDATE `crud01`.`personalinfo` SET `code` = '".$code."',
-                                            `track` = '".$track."',
+                                             `track` = '".$track."',
                                              `fullname` = '".$fullname."',
-                                              `fathername` = '".$fathername."',
-                                               `mothername` = '".$mothername."',
-                                                `religion` = '".$religion."',
-                                                 `dob` = '".$dob."',
-                                                  `gender` = '".$gender."',
-                                                   `nationality` = '".$nationality."',
-                                                    `nationalid` = '".$nationalid."',
-                                                     `useremail` = '".$useremail."',
-                                                      `mobile` = '".$mobile."',
-                                                       `hometown` = '".$hometown."',
-                                                        `currentcity` = '".$currentcity."',
-                                                         `sscroll` = '".$sscroll."',
-                                                          `sscboard` = '".$sscboard."',
-                                                           `sscyear` = '".$sscyear."',
-                                                            `sscgroup` = '".$sscgroup."',
-                                                             `sscresult` = '".$sscresult."',
-                                                              `hscroll` = '".$hscroll."',
-                                                               `hscboard` = '".$hscboard."',
-                                                                `hscyear` = '".$hscyear."',
-                                                                 `hscgroup` = '".$hscgroup."',
-                                                                  `hscresult` = '".$hscresult."',
-                                                                   `honssubject` = '".$honssubject."',
-                                                                    `honsresult` = '".$honsresult."',
-                                                                     `bangla` = '".$bangla."',
-                                                                      `english` = '".$english."'
+                                             `fathername` = '".$fathername."',
+                                             `mothername` = '".$mothername."',
+                                             `religion` = '".$religion."',
+                                             `dob` = '".$dob."',
+                                             `gender` = '".$gender."',
+                                             `nationality` = '".$nationality."',
+                                             `nationalid` = '".$nationalid."',
+                                             `useremail` = '".$useremail."',
+                                             `mobile` = '".$mobile."',
+                                             `hometown` = '".$hometown."',
+                                             `currentcity` = '".$currentcity."',
+                                             `sscroll` = '".$sscroll."',
+                                             `sscboard` = '".$sscboard."',
+                                             `sscyear` = '".$sscyear."',
+                                             `sscgroup` = '".$sscgroup."',
+                                             `sscresult` = '".$sscresult."',
+                                             `hscroll` = '".$hscroll."',
+                                             `hscboard` = '".$hscboard."',
+                                             `hscyear` = '".$hscyear."',
+                                             `hscgroup` = '".$hscgroup."',
+                                             `hscresult` = '".$hscresult."',
+                                             `honssubject` = '".$honssubject."',
+                                             `honsresult` = '".$honsresult."',
+                                             `bangla` = '".$bangla."',
+                                             `english` = '".$english."'
+
             WHERE `personalinfo`.`id` = $id;";
+
+
 mysqli_query($link, $query);
 
 header('location:list.php');

@@ -1,12 +1,12 @@
 <?php
 $id = $_GET['id'];
-<<<<<<< HEAD
-$link = mysqli_connect("localhost", "root", "479874", "crud01");
-=======
+
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
->>>>>>> dd1c2428e51392082af555555a0479e7fd0c452a
-$query = "SELECT * FROM deploment WHERE id = $id";
+
+$query = "SELECT * FROM employment WHERE id = $id";
+
 $result = mysqli_query($link, $query);
+
 $row = mysqli_fetch_assoc($result);
 //print_r($row);
 ?>

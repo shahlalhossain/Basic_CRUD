@@ -77,9 +77,12 @@ $result = mysqli_query($link, $query);
             <td><?php echo $row['honsresult']?></td>
             <td><?php echo $row['bangla']?></td>
             <td><?php echo $row['english']?></td>
-            <td> <a href="edit.php?id=<?php echo $row['id']?>">Edit</a> |
+
+            <td>
+                <a href="edit.php?id=<?php echo $row['id']?>">Edit</a> |
                 <a href="delete.php?id=<?php echo $row['id']?>">Delete</a> |
-                <a href="view.php?id=<?php echo $row['id']?>">View</a></td>
+                <a href="view.php?id=<?php echo $row['id']?>">View</a>
+            </td>
         </tr>
     <?php
     }

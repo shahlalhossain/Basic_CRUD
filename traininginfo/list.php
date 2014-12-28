@@ -3,7 +3,7 @@
 
 <?php
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
-$query = "SELECT * FROM deploment";
+$query = "SELECT * FROM traininginfo";
 $result = mysqli_query($link, $query);
 ?>
 <html>
@@ -17,14 +17,16 @@ $result = mysqli_query($link, $query);
 <table border="1" width="100%">
     <tr>
         <td>ID</td>
-        <td>Company Name</td>
-        <td>Company Business</td>
-        <td>Designation</td>
-        <td>Department</td>
-        <td>Time From</td>
-        <td>Time To</td>
+        <td>Training Title</td>
+        <td>Description</td>
+        <td>Institute</td>
+        <td>Address</td>
+        <td>Training Year</td>
         <td>Duration</td>
-        <td>Responsibility</td>
+        <td>Start Date</td>
+        <td>End Date</td>
+        <td>Course Title</td>
+        <td>Trainer Detail</td>
         <td>Action</td>
     </tr>
     <?php
@@ -32,18 +34,21 @@ $result = mysqli_query($link, $query);
         ?>
         <tr>
             <td><?php echo $row['id']?></td>
-            <td><?php echo $row['company_name']?></td>
-            <td><?php echo $row['company_business']?></td>
-            <td><?php echo $row['designation']?></td>
-            <td><?php echo $row['department']?></td>
-            <td><?php echo $row['timefrom']?></td>
-            <td><?php echo $row['timeto']?></td>
+            <td><?php echo $row['training_title']?></td>
+            <td><?php echo $row['description']?></td>
+            <td><?php echo $row['institute']?></td>
+            <td><?php echo $row['address']?></td>
+            <td><?php echo $row['training_year']?></td>
             <td><?php echo $row['duration']?></td>
-            <td><?php echo $row['responsibilities']?></td>
+            <td><?php echo $row['start_date']?></td>
+            <td><?php echo $row['end_date']?></td>
+            <td><?php echo $row['course_title']?></td>
+            <td><?php echo $row['trainer_detail']?></td>
 
             <td> <a href="edit.php?id=<?php echo $row['id']?>">Edit</a> |
                 <a href="delete.php?id=<?php echo $row['id']?>">Delete</a> |
-                <a href="view.php?id=<?php echo $row['id']?>">View</a></td>
+                <a href="view.php?id=<?php echo $row['id']?>">View</a>
+            </td>
         </tr>
     <?php
     }

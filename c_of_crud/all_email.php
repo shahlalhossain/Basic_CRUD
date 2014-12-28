@@ -37,7 +37,10 @@ $result = mysqli_query($link, $query);
             <td><?php echo $row['email']?></td>
             <td><?php echo $row['created']?></td>
 
-            <td> <a href="#">Edit</a> | <a href="delete_email.php?id=<?php echo $row['id']?>">Delete</a> | <a href="view_email.php?id=<?php echo $row['id']?>">View</a></td>
+            <td> <a href="#">Edit</a> |
+                 <a href="delete_email.php?id=<?php echo $row['id']?>">Delete</a> |
+                 <a href="view_email.php?id=<?php echo $row['id']?>">View</a>
+            </td>
         </tr>
 
     <?php

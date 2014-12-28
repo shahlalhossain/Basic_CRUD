@@ -29,12 +29,9 @@
     <input type="text" name="duration" />
     <br>
     
-<<<<<<< HEAD
-    <h3>Training Detail</h3>
-=======
+
     <h3>Course Detail</h3>
->>>>>>> dd1c2428e51392082af555555a0479e7fd0c452a
- 
+
     <label>Start Date: </label>
     <input type="text" name="start_date" />
     <br>

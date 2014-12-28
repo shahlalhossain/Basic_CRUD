@@ -2,27 +2,21 @@
 //print_r($_POST);
 
 $id = $_POST['id'];
-$name = $_POST['name'];
-$organization = $_POST['organization'];
-$address = $_POST['address'];
-$relation = $_POST['relation'];
-$office_phone = $_POST['office_phone'];
-$home_phone = $_POST['home_phone'];
-$mobile = $_POST['mobile'];
-$email = $_POST['email'];
+
+$exp_category = $_POST['exp_category'];
+$skill = $_POST['skill'];
+$skill_description= $_POST['skill_description'];
+$extr_activity = $_POST['extr_activity'];
+
 
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 
 
-$query = "UPDATE `crud01`.`reference` SET `name` = '".$name."',
-                                            `organization` = '".$organization."',
-                                            `address` = '".$address."',
-                                            `relation` = '".$relation."',
-                                            `office_phone` = '".$office_phone."',
-                                            `home_phone` = '".$home_phone."',
-                                            `mobile` = '".$mobile."',
-                                            `email` = '".$email."'
-    WHERE `reference`.`id` = $id;";
+$query = "UPDATE `crud01`.`ictskill` SET `exp_category` = '".$exp_category."',
+                                            `skill` = '".$skill."',
+                                            `skill_description` = '".$skill_description."',
+                                            `extr_activity` = '".$extr_activity."'
+    WHERE `ictskill`.`id` = $id;";
 
 mysqli_query($link, $query);
 

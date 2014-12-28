@@ -22,10 +22,11 @@
     <select name="skill">
         <option value="Programming">Programming</option>
         <option value="Programming 123">Programming 123</option>
-        <option value="Database">Database</option>
         <option value="Programming ABC">Programming ABC</option>
-        <option value="Database 123">Database 123</option>
         <option value="Programming XYZ">Programming XYZ</option>
+        <option value="Database">Database</option>
+        <option value="Database 123">Database 123</option>
+        <option value="Database ABC">Database ABC</option>
         <option value="Database XYZ">Database XYZ</option>
         <option value="XPath/JQuery/XLink/XPointer">XPath/JQuery/XLink/XPointer</option>
     </select>

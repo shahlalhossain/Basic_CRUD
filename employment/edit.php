@@ -3,7 +3,7 @@
 $id = $_GET['id'];
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 
-$query = "select * from emloyment WHERE id = $id";
+$query = "select * from employment WHERE id = $id";
 
 $result = mysqli_query($link, $query);
 

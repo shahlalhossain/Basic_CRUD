@@ -38,7 +38,7 @@ $row = mysqli_fetch_assoc($result);
     <input type="text" name="office_phone" value="<?php echo $row['office_phone'];?>" />
     <br>
     <label>Phone (Home): </label>
-    <input type="text" name="home_phone" value="<?php echo $row['home _phone'];?>" />
+    <input type="text" name="home_phone" value="<?php echo $row['home_phone'];?>" />
     <br>
     <label>Mobile: </label>
     <input type="text" name="mobile" value="<?php echo $row['mobile'];?>" />

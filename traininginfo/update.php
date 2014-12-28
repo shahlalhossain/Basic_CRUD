@@ -2,30 +2,7 @@
 //print_r($_POST);
 
 $id = $_POST['id'];
-<<<<<<< HEAD
-$present_address = $_POST['present_address'];
-$permanent_address = $_POST['permanent_address'];
-$district = $_POST['district'];
-$home_phone = $_POST['home_phone'];
-$mobile = $_POST['mobile'];
-$emergency_contact = $_POST['emergency_contact'];
-$email = $_POST['email'];
-$alternative_email = $_POST['alternative_email'];
 
-
-$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
-
-
-$query = "UPDATE `crud01`.`contactinfo` SET `present_address` = '".$present_address."',
-                                            `permanent_address` = '".$permanent_address."',
-                                            `district` = '".$district."',
-                                            `home_phone` = '".$home_phone."',
-                                            `mobile` = '".$mobile."',
-                                            `emergency_contact` = '".$emergency_contact."',
-                                            `email` = '".$email."',
-                                            `alternative_email` = '".$alternative_email."'
-        WHERE `contactinfo`.`id` = $id;";
-=======
 $training_title = $_POST['training_title'];
 $description = $_POST['description'];
 $institute = $_POST['institute'];
@@ -50,7 +27,6 @@ $query = "UPDATE `crud01`.`traininginfo` SET `training_title` = '".$training_tit
                                             `course_title` = '".$course_title."',
                                             `trainer_detail` = '".$trainer_detail."'
         WHERE `traininginfo`.`id` = $id;";
->>>>>>> dd1c2428e51392082af555555a0479e7fd0c452a
 
 mysqli_query($link, $query);
 
