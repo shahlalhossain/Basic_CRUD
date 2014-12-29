@@ -1,4 +1,4 @@
-
+<?php include("index.php") ?>
 
 
 <?php
@@ -11,9 +11,7 @@ $result = mysqli_query($link, $query);
     <title></title>
 </head>
 <body style="text-align: center;">
-<ul>
-    <li><a href="create.php">Create New Record</a> </li>
-</ul>
+
 <table border="1" width="100%">
     <tr>
         <td>ID</td>

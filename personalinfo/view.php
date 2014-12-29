@@ -1,3 +1,5 @@
+<?php include("index.php") ?>
+
 <?php
 $id = $_GET['id'];
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
@@ -12,8 +14,6 @@ $row = mysqli_fetch_assoc($result);
 </head>
 <body style="text-align: center;">
 <ul>
-    <li><a href="create.php">Create New Record</a> </li>
-    <li><a href="list.php">View All Participant</a> </li>
     <li><a href="search.php">Search By ID</a> </li>
 </ul>
 <table border="1">

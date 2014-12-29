@@ -1,3 +1,6 @@
+<?php include("index.php") ?>
+
+
 <?php
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");
 $query = "SELECT * FROM personalinfo";
@@ -8,9 +11,6 @@ $result = mysqli_query($link, $query);
     <title></title>
 </head>
 <body style="text-align: center;">
-<ul>
-    <li><a href="create.php">Create New Record</a> </li>
-</ul>
 <table border="1" width="100%">
     <tr>
         <td>ID</td>

@@ -1,3 +1,5 @@
+<?php include("index.php") ?>
+
 <?php
 $id = $_GET['id'];
 $link = mysqli_connect("localhost", "root", "lict@2", "crud01");

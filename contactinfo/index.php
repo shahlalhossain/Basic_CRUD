@@ -24,7 +24,7 @@
 
 
 <ol>
-    <li><a href="#">Home</a> </li>
+    <li><a href="http://localhost/crud01/contactinfo/"">Home</a> </li>
     <li><a href="create.php">Create New Record</a> </li>
     <li><a href="list.php">View Full List</a> </li>
 </ol>
