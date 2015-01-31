@@ -600,13 +600,13 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-25"><label for="honers_subject">Honers/Bachelor Subject:</label></div>
-                        <div class="col-75"><input type="text" id="honers_subject" name="honers_subject" placeholder="Honers/Bachelor Subject"></div>
+                        <div class="col-25"><label for="hons_subject">Honers/Bachelor Subject:</label></div>
+                        <div class="col-75"><input type="text" id="hons_subject" name="hons_subject" placeholder="Honers/Bachelor Subject"></div>
                     </div>
 
                     <div class="row">
-                        <div class="col-25"><label for="hsc_result">Honers/Bachelor Result (GPA/Division):</label></div>
-                        <div class="col-75"><input type="text" id="hsc_result" name="hsc_result" placeholder="Honers/Bachelor Result (GPA/Division)"></div>
+                        <div class="col-25"><label for="hons_result">Honers/Bachelor Result (GPA/Division):</label></div>
+                        <div class="col-75"><input type="text" id="hons_result" name="hons_result" placeholder="Honers/Bachelor Result (GPA/Division)"></div>
                     </div>
 
                 </fieldset>

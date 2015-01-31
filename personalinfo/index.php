@@ -18,7 +18,7 @@ if ($dbConnection) {
     <meta name="author" content="Shahlal Hossain">
     <meta name="description" content="PHP CRUD Practices">
     <meta name="keywords" content="HTML, CSS, JavaScript, PHP, MySQL, CRUD">
-    <title>Home</title>
+    <title>Personal Information</title>
 
     <style>
         * { box-sizing: border-box; }
@@ -152,7 +152,7 @@ if ($dbConnection) {
     </div>
     <div class="rightColumn">
         <div class="card">
-            <h3>Personal Detail Page</h3>
+            <h3>Personal Information</h3>
             <table class="table">
                 <tbody>
                 <tr>
@@ -180,9 +180,9 @@ if ($dbConnection) {
                             <td><?php echo $row['religion']?></td>
                             <td><?php echo $row['hometown']?></td>
                             <td>
+                                <a href="view.php?id=<?php echo $row['id']?>">View</a> |
                                 <a href="edit.php?id=<?php echo $row['id']?>">Edit</a> |
-                                <a href="delete.php?id=<?php echo $row['id']?>">Delete</a> |
-                                <a href="view.php?id=<?php echo $row['id']?>">View</a>
+                                <a href="delete.php?id=<?php echo $row['id']?>">Delete</a>
                             </td>
                         </tr>
                         <?php

@@ -30,8 +30,8 @@ $hscGroup   = $_POST['hsc_group'];
 $hscResult  = $_POST['hsc_result'];
 
 $honsYear       = $_POST['hons_year'];
-$honsSubject    = $_POST['honers_subject'];
-$honsResult     = $_POST['hsc_result'];
+$honsSubject    = $_POST['hons_subject'];
+$honsResult     = $_POST['hons_result'];
 
 $dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 
