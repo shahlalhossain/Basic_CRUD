@@ -1,24 +1,23 @@
 <?php
 //print_r($_POST);
+$presentPerson      = $_POST['contact_person'];
+$gender             = $_POST['gender'];
+$profession         = $_POST['profession'];
+$designation        = $_POST['designation'];
+$primaryMobile      = $_POST['primary_mobile'];
+$secondaryMobile    = $_POST['secondary_mobile'];
+$primaryEmail       = $_POST['primary_email'];
+$secondaryEmail     = $_POST['secondary_email'];
+$presentAddress     = $_POST['present_address'];
+$presentDistrict    = $_POST['present_district'];
+$permanentAddress   = $_POST['permanent_address'];
+$permanentDistrict  = $_POST['permanent_district'];
 
+$dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 
-//$present_address = $_POST['present_address'];
-$present_address = $_POST['present_address'];
-$permanent_address = $_POST['permanent_address'];
-$district = $_POST['district'];
-$home_phone = $_POST['home_phone'];
-$mobile = $_POST['mobile'];
-$emergency_contact = $_POST['emergency_contact'];
-$email = $_POST['email'];
-$alternative_email = $_POST['alternative_email'];
-$gender = $_POST['gender'];
-
-
-$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
-
-$query = "INSERT INTO `crud01`.`contactinfo`(`present_address`, `permanent_address`, `district`, `home_phone`, `mobile`, `emergency_contact`, `email`, `alternative_email`, `gender`)
-            VALUES ('$present_address', '$permanent_address', '$district', '$home_phone', '$mobile', '$emergency_contact', '$email', '$alternative_email', '$gender')";
-mysqli_query($link, $query);
+$query = "INSERT INTO `contactinfo`(`contact_person`, `gender`, `profession`, `designation`, `primary_mobile`, `secondary_mobile`, `primary_email`, `secondary_email`, `present_address`, `present_district`, `permanent_address`, `permanent_district`)
+            VALUES ('$presentPerson', '$gender', '$profession', '$designation', '$primaryMobile', '$secondaryMobile', '$primaryEmail', '$secondaryEmail', '$presentAddress', '$presentDistrict', '$permanentAddress', '$permanentDistrict')";
+mysqli_query($dbConnection, $query);
 
 
 header('location:list.php');

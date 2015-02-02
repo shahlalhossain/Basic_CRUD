@@ -1,31 +1,39 @@
 <?php
 //print_r($_POST);
 
-$id = $_POST['id'];
-$present_address = $_POST['present_address'];
-$permanent_address = $_POST['permanent_address'];
-$district = $_POST['district'];
-$home_phone = $_POST['home_phone'];
-$mobile = $_POST['mobile'];
-$emergency_contact = $_POST['emergency_contact'];
-$email = $_POST['email'];
-$alternative_email = $_POST['alternative_email'];
+$recordID           = $_POST['id'];
+$presentPerson      = $_POST['contact_person'];
+$gender             = $_POST['gender'];
+$profession         = $_POST['profession'];
+$designation        = $_POST['designation'];
+$primaryMobile      = $_POST['primary_mobile'];
+$secondaryMobile    = $_POST['secondary_mobile'];
+$primaryEmail       = $_POST['primary_email'];
+$secondaryEmail     = $_POST['secondary_email'];
+$presentAddress     = $_POST['present_address'];
+$presentDistrict    = $_POST['present_district'];
+$permanentAddress   = $_POST['permanent_address'];
+$permanentDistrict  = $_POST['permanent_district'];
 
 
-$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
+$dbConnection = mysqli_connect("localhost", "root", "hisl@321", "bacrud");
 
 
-$query = "UPDATE `crud01`.`contactinfo` SET `present_address` = '".$present_address."',
-                                            `permanent_address` = '".$permanent_address."',
-                                            `district` = '".$district."',
-                                            `home_phone` = '".$home_phone."',
-                                            `mobile` = '".$mobile."',
-                                            `emergency_contact` = '".$emergency_contact."',
-                                            `email` = '".$email."',
-                                            `alternative_email` = '".$alternative_email."'
-        WHERE `contactinfo`.`id` = $id;";
+$query = "UPDATE `contactinfo` SET `contact_person` = '".$presentPerson."',
+                                   `gender` = '".$gender."',
+                                   `profession` = '".$profession."',
+                                   `designation` = '".$designation."',
+                                   `primary_mobile` = '".$primaryMobile."',
+                                   `secondary_mobile` = '".$secondaryMobile."',
+                                   `primary_email` = '".$primaryEmail."',
+                                   `secondary_email` = '".$secondaryEmail."',
+                                   `present_address` = '".$presentAddress."',
+                                   `present_district` = '".$presentDistrict."',
+                                   `permanent_address` = '".$permanentAddress."',
+                                   `permanent_district` = '".$permanentDistrict."'
+        WHERE `id` = $recordID;";
 
-mysqli_query($link, $query);
+mysqli_query($dbConnection, $query);
 
 header('location:list.php');
 ?>

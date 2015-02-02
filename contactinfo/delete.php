@@ -1,7 +1,14 @@
 <?php
-$id = $_GET['id'];
-$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
-$query = "DELETE FROM `crud01`.`contactinfo` WHERE `contactinfo`.`id` = $id";
-mysqli_query($link, $query);
-header('location:list.php');
+$recordID = $_GET['id'];
+$dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
+
+if ($dbConnection) {
+    $query = "DELETE FROM `contactinfo` WHERE `id` = $recordID";
+    mysqli_query($dbConnection, $query);
+    header('location:list.php');
+} elseif (mysqli_connect_errno()) {
+    echo "Failed to connect to MysQL Database: " . mysqli_connect_error();
+} else {
+    echo 'Please Check Your Database Connection';
+}
 ?>

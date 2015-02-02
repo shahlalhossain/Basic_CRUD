@@ -68,6 +68,11 @@
             margin-top: 20px;
         }
 
+        .col-6 {
+            float:left;
+            width:50%;
+        }
+
         /* Clear Floats After the Columns */
         .row::after {
             content: "";

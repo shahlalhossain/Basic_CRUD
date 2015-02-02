@@ -1,14 +1,15 @@
-<?php include("index.php") ?>
-
 <?php
-$id = $_GET['id'];
-$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
-$query = "select * from contactinfo WHERE id = $id";
-$result = mysqli_query($link, $query);
-$row = mysqli_fetch_assoc($result);
-
-//var_dump($row ['present_address']);
-
+$recordID = $_GET['id'];
+$dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
+if ($dbConnection && $recordID) {
+    $query  = "SELECT * FROM contactinfo WHERE id = $recordID";
+    $result = mysqli_query($dbConnection, $query);
+    $record = mysqli_fetch_assoc($result);
+} elseif (mysqli_connect_errno()) {
+    echo "Failed to connect to MysQL Database: " . mysqli_connect_error();
+} else {
+    echo 'Please Check Your Database Connection';
+}
 ?>
 
 <html>
