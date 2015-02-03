@@ -165,13 +165,14 @@ if ($dbConnection) {
     <div class="rightColumn">
         <div class="card">
             <div class="row">
-                <div class="col-6">
-                    <!--<h3>Personal Information Details</h3>-->
-                    <p></p>
+                <div class="col-6" style="text-align: left; padding-top: 10px;">
+                    <span>Personal Information Details</span>
                 </div>
                 <div class="col-6" style="text-align: right; padding-top: 10px;">
-                    <a href="edit.php?id=<?php echo $record['id']?>">Edit</a> |
-                    <a href="delete.php?id=<?php echo $record['id']?>">Delete</a>
+                    <a style="text-decoration: none;" href="create.php">Add New</a> |
+                    <a style="text-decoration: none;" href="list.php">Back to List</a> |
+                    <a style="text-decoration: none;" href="edit.php?id=<?php echo $record['id']?>">Edit & Update</a> |
+                    <a style="text-decoration: none;" href="delete.php?id=<?php echo $record['id']?>">Delete</a>
                 </div>
             </div>
 

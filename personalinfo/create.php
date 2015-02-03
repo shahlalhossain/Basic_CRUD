@@ -184,7 +184,17 @@
     </div>
     <div class="rightColumn">
         <div class="card">
-            <h3>Add New Record of Personal Information</h3>
+
+            <div class="row">
+                <div class="col-6" style="text-align: left; padding-top: 10px;">
+                    <span>Add New Personal Information</span>
+                </div>
+                <div class="col-6" style="text-align: right; padding-top: 10px;">
+                    <a href="list.php">Back to List</a>
+                </div>
+            </div>
+
+            <hr>
 
             <form action="add.php" method="POST">
 
