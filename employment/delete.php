@@ -1,11 +1,9 @@
 <?php
-$id = $_GET['id'];
+$recordID  = $_GET['id'];
 
-$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
-
-$query = "DELETE FROM `crud01`.`employment` WHERE `employment`.`id` = $id";
-
-mysqli_query($link, $query);
+$dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
+$query = "DELETE FROM `employment_history` WHERE `id` = $recordID ";
+mysqli_query($dbConnection, $query);
 
 header('location:list.php');
 ?>

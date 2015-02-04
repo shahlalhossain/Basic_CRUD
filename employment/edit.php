@@ -1,15 +1,10 @@
 <?php
 
-$id = $_GET['id'];
-$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
-
-$query = "select * from employment WHERE id = $id";
-
-$result = mysqli_query($link, $query);
-
-$row = mysqli_fetch_assoc($result);
-
-//var_dump($row ['']);
+$recordID = $_GET['id'];
+$dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
+$query = "SELECT * FROM employment_history WHERE id = $recordID";
+$result = mysqli_query($dbConnection, $query);
+$record = mysqli_fetch_assoc($result);
 
 ?>
 
