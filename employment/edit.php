@@ -212,7 +212,9 @@ $record = mysqli_fetch_assoc($result);
 
             <hr>
 
-            <form action="add.php" method="POST">
+            <form action="update.php" method="POST">
+
+                <input type="hidden" name="id" value="<?php echo $record['id']; ?>" />
 
                 <div class="row">
                     <div class="col-25"><label for="company_name">Company Name:</label></div>
