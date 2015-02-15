@@ -20,7 +20,7 @@ if ($dbConnection) {
     <meta name="author" content="Shahlal Hossain">
     <meta name="description" content="PHP CRUD Practices">
     <meta name="keywords" content="HTML, CSS, JavaScript, PHP, MySQL, CRUD">
-    <title>Academic History</title>
+    <title>ICT Skills</title>
 
     <style>
         * { box-sizing: border-box; }
@@ -163,7 +163,7 @@ if ($dbConnection) {
         <div class="card">
             <div class="row">
                 <div class="col-6" style="text-align: left; padding-top: 10px;">
-                    <span>Academic History</span>
+                    <span>ICT Skill Details</span>
                 </div>
                 <div class="col-6" style="text-align: right; padding-top: 10px;">
                     <a style="text-decoration: none;" href="create.php">Add New</a> |
@@ -187,7 +187,7 @@ if ($dbConnection) {
                 </tr>
                 <tr>
                     <td style="text-align: right;"><strong>Experience</strong></td>
-                    <td><?php echo $record['experience']; ?></td>
+                    <td><?php echo $record['experience'] . ' ' . $record['experience_unit']; ?></td>
                 </tr>
                 <tr>
                     <td style="text-align: right;"><strong>Description</strong></td>

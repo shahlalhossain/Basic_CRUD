@@ -1,24 +1,25 @@
 <?php
-//print_r($_POST);
 
-$id = $_POST['id'];
+$recordID = $_POST['id'];
 
-$exp_category = $_POST['exp_category'];
-$skill = $_POST['skill'];
-$skill_description= $_POST['skill_description'];
-$extr_activity = $_POST['extr_activity'];
+$skillCategory          = $_POST['skill_category'];
+$skillSubject           = $_POST['skill_subject'];
+$experiencePeriod       = $_POST['experience_period'];
+$experiencePeriodUnit   = $_POST['experience_period_unit'];
+$description            = $_POST['description'];
+$skillUsage             = $_POST['skill_usage'];
 
+$dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 
-$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
+$query = "UPDATE `ict_skills` SET `skill_category` = '".$skillCategory."',
+                                         `skill_subject` = '".$skillSubject."',
+                                         `experience` = '".$experiencePeriod."',
+                                         `experience_unit` = '".$experiencePeriodUnit."',
+                                         `description` = '".$description."',
+                                         `skill_usage` = '".$skillUsage."'
+        WHERE `id` = $recordID;";
 
-
-$query = "UPDATE `crud01`.`ictskill` SET `exp_category` = '".$exp_category."',
-                                            `skill` = '".$skill."',
-                                            `skill_description` = '".$skill_description."',
-                                            `extr_activity` = '".$extr_activity."'
-    WHERE `ictskill`.`id` = $id;";
-
-mysqli_query($link, $query);
+mysqli_query($dbConnection, $query);
 
 header('location:list.php');
 ?>

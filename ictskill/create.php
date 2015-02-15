@@ -341,6 +341,7 @@
                     <div class="col-25"><label for="experience_period">Experience Period:</label></div>
                     <div class="col-50"><input type="text" id="experience_period" name="experience_period" placeholder="10/20" required></div>
                     <div class="col-25">
+                        <label for="experience_period_unit" style="display: none;">Experience Period Unit</label>
                         <select id="experience_period_unit" name="experience_period_unit">
                             <option value="Years" selected>Years</option>
                             <option value="Months">Months</option>

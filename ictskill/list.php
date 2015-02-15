@@ -168,15 +168,15 @@ if ($dbConnection) {
                     foreach($result as $key => $record){
                         ?>
                         <tr>
-                            <td><?php echo $key+1 ?></td>
-                            <td><?php echo $record['skill_category']?></td>
-                            <td><?php echo $record['skill_subject']?></td>
-                            <td><?php echo $record['experience']?></td>
-                            <td><?php echo $record['created_at']?></td>
+                            <td><?php echo $key+1; ?></td>
+                            <td><?php echo $record['skill_category']; ?></td>
+                            <td><?php echo $record['skill_subject']; ?></td>
+                            <td><?php echo $record['experience'] . ' ' . $record['experience_unit']; ?></td>
+                            <td><?php echo $record['created_at']; ?></td>
                             <td>
-                                <a href="view.php?id=<?php echo $record['id']?>">View</a> |
-                                <a href="edit.php?id=<?php echo $record['id']?>">Edit</a> |
-                                <a href="delete.php?id=<?php echo $record['id']?>">Delete</a>
+                                <a href="view.php?id=<?php echo $record['id']; ?>">View</a> |
+                                <a href="edit.php?id=<?php echo $record['id']; ?>">Edit</a> |
+                                <a href="delete.php?id=<?php echo $record['id']; ?>">Delete</a>
                             </td>
                         </tr>
                         <?php
