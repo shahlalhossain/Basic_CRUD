@@ -1,34 +1,32 @@
 <?php
 //print_r($_POST);
 
-$id = $_POST['id'];
+$recordID = $_POST['id'];
 
-$training_title = $_POST['training_title'];
-$description = $_POST['description'];
-$institute = $_POST['institute'];
-$address = $_POST['address'];
-$training_year = $_POST['training_year'];
-$duration = $_POST['duration'];
-$start_date = $_POST['start_date'];
-$end_date = $_POST['end_date'];
-$course_title = $_POST['course_title'];
-$trainer_detail = $_POST['trainer_detail'];
+$trainingTitle  = $_POST['training_title'];
+$description    = $_POST['description'];
+$institute      = $_POST['institute'];
+$address        = $_POST['address'];
+$trainingYear   = $_POST['training_year'];
+$startDate      = $_POST['start_date'];
+$endDate        = $_POST['end_date'];
+$duration       = $_POST['duration'];
+$durationUnit   = $_POST['duration_unit'];
 
-$link = mysqli_connect("localhost", "root", "lict@2", "crud01");
+$dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 
-$query = "UPDATE `crud01`.`traininginfo` SET `training_title` = '".$training_title."',
+$query = "UPDATE `trainings` SET `training_title` = '".$trainingTitle."',
                                             `description` = '".$description."',
                                             `institute` = '".$institute."',
                                             `address` = '".$address."',
-                                            `training_year` = '".$training_year."',
+                                            `training_year` = '".$trainingYear."',
+                                            `start_date` = '".$startDate."',
+                                            `end_date` = '".$endDate."',
                                             `duration` = '".$duration."',
-                                            `start_date` = '".$start_date."',
-                                            `end_date` = '".$end_date."',
-                                            `course_title` = '".$course_title."',
-                                            `trainer_detail` = '".$trainer_detail."'
-        WHERE `traininginfo`.`id` = $id;";
+                                            `duration_unit` = '".$durationUnit."'
+            WHERE `id` = $recordID";
 
-mysqli_query($link, $query);
+mysqli_query($dbConnection, $query);
 
 header('location:list.php');
 ?>
