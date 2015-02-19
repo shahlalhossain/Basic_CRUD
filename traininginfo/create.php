@@ -258,10 +258,10 @@
                     <div class="col-50 input-group">
                         <label for="start_date" style="display: none;">Start Date</label>
                         <span class="input-group-addon">Start Date</span>
-                        <input type="date" id="start_date" name="start_date" style="width: auto;" required>
+                        <input type="date" id="start_date" name="start_date" min="1980-01-01" max="2015-12-31" style="width: auto;" required>
                         <label for="end_date" style="display: none;">End Date</label>
                         <span class="input-group-addon">End Date</span>
-                        <input type="date" id="end_date" name="end_date" style="width: auto;" required>
+                        <input type="date" id="end_date" name="end_date" min="1980-01-01" max="2015-12-31" style="width: auto;" required>
                     </div>
                     <div class="col-25 input-group">
                         <label for="duration" style="display: none;">Duration</label>
