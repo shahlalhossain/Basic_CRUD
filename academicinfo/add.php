@@ -15,7 +15,7 @@ $achievements       = $_POST['achievements'];
 
 $dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 
-$query = "INSERT INTO `academicinfo`(`level_of_education`, `exam_title`, `subject_group`, `institution`, `result_type`, `result`, `scale`, `passing_year`, `duration`, `achievements`)
+$query = "INSERT INTO `academic_info`(`level_of_education`, `exam_title`, `subject_group`, `institution`, `result_type`, `result`, `scale`, `passing_year`, `duration`, `achievements`)
             VALUES ('$level_of_education', '$exam_title', '$subject', '$institution', '$result_type', '$result', '$scale', '$passing_year', '$duration', '$achievements')";
 
 mysqli_query($dbConnection, $query);

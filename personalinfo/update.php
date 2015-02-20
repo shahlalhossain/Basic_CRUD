@@ -37,7 +37,7 @@ $honsResult     = $_POST['hons_result'];
 
 $dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 
-$query = "UPDATE `personalinfo` SET `track` = '".$track."',
+$query = "UPDATE `personal_info` SET `track` = '".$track."',
                                     `name` = '".$name."',
                                     `father_name` = '".$fatherName."',
                                     `mother_name` = '".$motherName."',

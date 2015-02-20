@@ -15,7 +15,7 @@ $permanentDistrict  = $_POST['permanent_district'];
 
 $dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 
-$query = "INSERT INTO `contactinfo`(`contact_person`, `gender`, `profession`, `designation`, `primary_mobile`, `secondary_mobile`, `primary_email`, `secondary_email`, `present_address`, `present_district`, `permanent_address`, `permanent_district`)
+$query = "INSERT INTO `contact_info`(`contact_person`, `gender`, `profession`, `designation`, `primary_mobile`, `secondary_mobile`, `primary_email`, `secondary_email`, `present_address`, `present_district`, `permanent_address`, `permanent_district`)
             VALUES ('$presentPerson', '$gender', '$profession', '$designation', '$primaryMobile', '$secondaryMobile', '$primaryEmail', '$secondaryEmail', '$presentAddress', '$presentDistrict', '$permanentAddress', '$permanentDistrict')";
 mysqli_query($dbConnection, $query);
 

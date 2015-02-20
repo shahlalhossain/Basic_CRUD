@@ -35,7 +35,7 @@ $honsResult     = $_POST['hons_result'];
 
 $dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 
-$query = "INSERT INTO `personalinfo`(`code`, `track`, `name`, `father_name`, `mother_name`, `religion`, `dob`, `gender`, `nationality`, `nid`, `email`, `mobile`, `hometown`, `current_city`, `ssc_roll`, `ssc_board`, `ssc_year`, `ssc_group`, `ssc_result`, `hsc_roll`, `hsc_board`, `hsc_year`, `hsc_group`, `hsc_result`, `hons_year`, `hons_subject`, `hons_result`)
+$query = "INSERT INTO `personal_info`(`code`, `track`, `name`, `father_name`, `mother_name`, `religion`, `dob`, `gender`, `nationality`, `nid`, `email`, `mobile`, `hometown`, `current_city`, `ssc_roll`, `ssc_board`, `ssc_year`, `ssc_group`, `ssc_result`, `hsc_roll`, `hsc_board`, `hsc_year`, `hsc_group`, `hsc_result`, `hons_year`, `hons_subject`, `hons_result`)
 VALUES ('$code', '$track', '$name', '$fatherName', '$motherName', '$religion', '$dob', '$gender', '$nationality', '$nid', '$email', '$mobile', '$hometown', '$currentCity', '$sscRoll', '$sscBoard', '$sscYear', '$sscGroup', '$sscResult', '$hscRoll', '$hscBoard', '$hscYear', '$hscGroup', '$hscResult', '$honsYear', '$honsSubject', '$honsResult')";
 mysqli_query($dbConnection, $query);
 

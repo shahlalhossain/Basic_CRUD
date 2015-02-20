@@ -95,8 +95,6 @@
 <body>
 
 <div class="topNav">
-    <a class="item" href="http://localhost/practices/crud01/fileupload/">Image Upload</a>
-    <a class="item" href="http://localhost/practices/crud01/reference/">References</a>
     <a class="item" href="http://localhost/practices/crud01/traininginfo/">Training</a>
     <a class="item" href="http://localhost/practices/crud01/ictskill/">ICT Skill</a>
     <a class="item" href="http://localhost/practices/crud01/academicinfo/">Academic</a>
@@ -117,16 +115,47 @@
                 <a style="text-decoration: none;" href="http://localhost/practices/crud01/academicinfo/"><li class="leftSideMenuItem">Academic Information</li></a>
                 <a style="text-decoration: none;" href="http://localhost/practices/crud01/ictskill/"><li class="leftSideMenuItem">ICT Skills</li></a>
                 <a style="text-decoration: none;" href="http://localhost/practices/crud01/traininginfo/"><li class="leftSideMenuItem">Trainings</li></a>
-                <a style="text-decoration: none;" href="http://localhost/practices/crud01/certification/"><li class="leftSideMenuItem">Certifications</li></a>
-                <a style="text-decoration: none;" href="http://localhost/practices/crud01/reference/"><li class="leftSideMenuItem">References</li></a>
-                <a style="text-decoration: none;" href="http://localhost/practices/crud01/fileupload/"><li class="leftSideMenuItem">Image Upload</li></a>
             </ul>
         </div>
     </div>
     <div class="rightColumn">
         <div class="card">
-            <h3>Home Page</h3>
-            <p>Some Text/Content will be here...</p>
+            <h3>CRUD Operations in PHP</h3>
+            <p>CRUD operations stand for <strong>Create, Read, Update, and Delete,</strong> which are the four basic functions of persistent storage. In PHP, CRUD operations are typically implemented using a relational database like MySQL. Here’s a breakdown of each operation:</p>
+
+            <ol type="1">
+                <li>
+                    <strong>Create (Insert)</strong>-- This operation is used to add new records into the database. In PHP, the <span style="background-color: #cccccc;"><b><i>INSERT INTO</i></b></span> SQL query is used for this purpose.
+                </li>
+                <li>
+                    <strong>Read (Retrieve)</strong> -- This operation fetches data from the database. The <span style="background-color: #cccccc;"><b><i>SELECT</i></b></span> SQL statement is used in PHP to retrieve records.
+                </li>
+                <li>
+                    <strong>Update</strong> -- This operation modifies existing data in the database. The <span style="background-color: #cccccc;"><b><i>UPDATE</i></b></span> SQL statement is used for this purpose.
+                </li>
+                <li>
+                    <strong>Delete</strong> -- This operation removes records from the database. The <span style="background-color: #cccccc;"><b><i>DELETE FROM</i></b></span> SQL statement is used to delete records.
+                </li>
+            </ol>
+
+            <br>
+            <h4>Key Points:</h4>
+            <ul>
+                <li>
+                    <strong>Database Connection:</strong> A connection to the database is required for each operation using the mysqli or PDO extension in PHP.
+                </li>
+                <li>
+                    <strong>SQL Statements:</strong> Each CRUD operation corresponds to a specific SQL command (INSERT, SELECT, UPDATE, DELETE).
+                </li>
+                <li>
+                    <strong>Error Handling:</strong> Always check for errors after performing database operations to handle potential issues gracefully.
+                </li>
+                <li>
+                    <strong>Security Considerations:</strong> When working with user inputs, it's essential to use prepared statements or parameterized queries to prevent SQL injection attacks.
+                </li>
+            </ul>
+
+            <p>By implementing these basic CRUD operations in PHP, you can create fully functional applications that interact with databases for dynamic content management.</p>
         </div>
     </div>
 </div>

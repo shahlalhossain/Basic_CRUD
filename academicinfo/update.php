@@ -15,7 +15,7 @@ $achievements       = $_POST['achievements'];
 
 $dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 
-$query = "UPDATE `academicinfo` SET `level_of_education` = '".$level_of_education."',
+$query = "UPDATE `academic_info` SET `level_of_education` = '".$level_of_education."',
                                     `exam_title` = '".$exam_title."',
                                     `subject_group` = '".$subject."',
                                     `institution` = '".$institution."',

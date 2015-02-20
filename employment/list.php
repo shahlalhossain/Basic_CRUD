@@ -131,8 +131,6 @@ if ($dbConnection) {
 <body>
 
 <div class="topNav">
-    <a class="item" href="http://localhost/practices/crud01/fileupload/">Image Upload</a>
-    <a class="item" href="http://localhost/practices/crud01/reference/">References</a>
     <a class="item" href="http://localhost/practices/crud01/traininginfo/">Training</a>
     <a class="item" href="http://localhost/practices/crud01/ictskill/">ICT Skill</a>
     <a class="item" href="http://localhost/practices/crud01/academicinfo/">Academic</a>

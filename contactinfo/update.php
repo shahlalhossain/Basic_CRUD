@@ -19,7 +19,7 @@ $permanentDistrict  = $_POST['permanent_district'];
 $dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 
 
-$query = "UPDATE `contactinfo` SET `contact_person` = '".$presentPerson."',
+$query = "UPDATE `contact_info` SET `contact_person` = '".$presentPerson."',
                                    `gender` = '".$gender."',
                                    `profession` = '".$profession."',
                                    `designation` = '".$designation."',

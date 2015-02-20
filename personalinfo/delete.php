@@ -4,7 +4,7 @@ $recordID = $_GET['id'];
 
 $dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 if ($dbConnection) {
-    $query = "DELETE FROM `personalinfo` WHERE `id` = $recordID";
+    $query = "DELETE FROM `personal_info` WHERE `id` = $recordID";
     mysqli_query($dbConnection, $query);
     header('location:list.php');
 } elseif (mysqli_connect_errno()) {
