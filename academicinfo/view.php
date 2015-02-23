@@ -2,7 +2,7 @@
 $recordID = $_GET['id'];
 $dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 if ($dbConnection) {
-    $query  = "SELECT * FROM academicinfo WHERE id = $recordID";
+    $query  = "SELECT * FROM academic_info WHERE id = $recordID";
     $result = mysqli_query($dbConnection, $query);
     $record = mysqli_fetch_assoc($result);
 } elseif (mysqli_connect_errno()) {

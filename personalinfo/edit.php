@@ -3,7 +3,7 @@ $recordID = $_GET['id'];
 $record = [];
 $dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 if ($dbConnection) {
-    $query  = "SELECT * FROM personalinfo WHERE id = $recordID";
+    $query  = "SELECT * FROM personal_info WHERE id = $recordID";
     $result = mysqli_query($dbConnection, $query);
     $record = mysqli_fetch_assoc($result);
 //    print_r($record);

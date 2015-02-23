@@ -1,7 +1,7 @@
 <?php
 $dbConnection = mysqli_connect("localhost", "root", "hisl@321", "basic_crud");
 if ($dbConnection) {
-    $query = "SELECT * FROM academicinfo";
+    $query = "SELECT * FROM academic_info";
     $result = mysqli_query($dbConnection, $query);
 } elseif (mysqli_connect_errno()) {
     echo "Failed to connect to MysQL Database: " . mysqli_connect_error();
