@@ -3,10 +3,37 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>Ad New Academic Information</title>
 </head>
-<body style="text-align: center; width: 100%; height: 100%;">
-<form action="add.php" method="POST">
+<style>
+    .column {
+  float: left;
+  width: 50%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+</style>
+<body>
+
+
+<div class="row">
+  <div class="column"></div>
+  <div class="column"></div>
+</div> 
+
+<div style="text-align: left;">
+    <ol>
+        <li><a href="list.php">View Full List</a> </li>
+        <li><a href="create.php">Create New Record</a> </li>
+    </ol>
+</div>
+
+<form action="add.php" method="POST" style="text-align:left; margin-left:50px;">
 
     <h3>Academic Information</h3>
 
